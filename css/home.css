@@ -1,0 +1,178 @@
+body {
+	background-color: #505050;
+}
+
+main {
+	margin: 140px 0 0 0;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+.row {
+	text-align: center;
+	margin: 0;
+	padding:0;
+}
+
+div.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
+	text-align: center;
+	padding: 0;
+}
+
+div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
+	display: inline-block;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+	color: grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 4px;
+	margin: 0;
+}
+
+h1 {
+	width: 100%;
+	font-size: 2.4rem;
+	color: lightgray;
+}
+
+h2 {
+	font-size: 3.0rem;
+	color: lightgray;
+	padding: 0;
+}
+
+h3 {
+	letter-spacing: 2.8px;
+	font-size: 2.0rem;
+	color: grey;
+}
+
+header a h1 {
+	padding: 20px 0 0 0;
+}
+
+header h2 {
+	padding: 16px 0 16px 0;
+}
+
+header {
+	height: auto;
+}
+
+header .navbar-fixed-top ul {
+	list-style: none; 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav li a h3:hover {
+	color: #ff80b3;
+	font-size: 2.2rem;
+}
+
+.navbar-fixed-top {
+	text-align: center;
+	display: inline-block;
+	margin: 0 0 0 0;
+	border: none; 
+	background-color: #303030;
+	height: auto;
+}
+
+.navbar-fixed-top li {
+	padding: 0 0 6px 0;
+	float: none;
+	display: inline-block;
+}
+
+.navbar-fixed-top.row {
+	background-color: none;
+}
+
+.navbar-fixed-bottom {
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	background-color: #303030;
+}
+
+.navbar-fixed-bottom p {
+	padding: 0;
+	margin: 0;
+}
+
+#copyright {
+	padding: 16px 0;
+	color: grey;
+}
+
+.SVG li {
+	padding:0;
+}
+
+img.img-responsive {
+	max-width: 800px;
+	width: 100%;
+	margin:	 0 auto;
+	padding: 140px 0 0 0;
+}
+
+img.img-responsive.svg {
+	padding: 140px 0 0 0;
+	max-width: 53.4%;
+}
+
+.placeholder {
+	height: 305px;
+}
+
+ul {
+	display: inline;
+	padding: 0;
+}
+
+ul.pages {
+	margin: inherit;
+	padding: 0 0 0 0;
+	list-style-type: none;
+	display: block;
+}
+
+ul.pages li a h3 {
+	display: block;
+	padding: 0 20px;
+}
+
+ul.galleryContent {
+	list-style: none;
+	margin: 0;
+	display: inline-flex;
+}
+
+ul.galleryContent li {
+	padding: 10px 16px;
+}
+
+ul.galleryContent li  h3 {
+	display: block;
+	padding: 0 20px;
+}
+
+object {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 54.2%;
+}

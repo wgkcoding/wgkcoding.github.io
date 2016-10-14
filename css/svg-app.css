@@ -1,0 +1,138 @@
+body {
+	background-color: #000000;
+}
+
+main {
+	/*height: 50%;*/
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+.row {
+	margin: 0;
+	padding:0;
+}
+
+div.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
+	text-align: center;
+}
+
+div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
+	display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+h1 {
+	width: 100%;
+	font-size: 2.4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+header a h1 {
+	padding: 10px 0 10px 0;
+}
+
+header h1, h2 {
+	padding: 0 0 10px 0;
+}
+
+
+img.img-responsive {
+	max-width: 800px;
+	width: 100%;
+	margin:	   auto;
+	padding:   20% 0;
+}
+
+.navbar-fixed-top {
+	text-align: center;
+	display: inline-block;
+	margin: 0 0 0 0;
+	height: auto;
+}
+
+a {
+
+}
+
+header .navbar-fixed-top ul {
+	list-style: none; 
+}
+
+.navbar-fixed-top li {
+	padding: 0 0 10px 0;
+	float: left;
+}
+
+.SVG li {
+	padding:0;
+}
+
+.svgAnimation {
+	width: 80%;
+}
+
+img.img-responsive.svg {
+	max-width: 600px;
+}
+
+.placeholder {
+	height: 305px;
+}
+
+ul {
+	display: inline;
+	padding: 0;
+}
+
+ul.pages {
+	margin: 0 auto;
+	display: inline-flex;
+}
+
+ul.pages li a h3 {
+	display: block;
+	padding: 0 20px;
+}
+
+ul.galleryContent {
+	list-style: none;
+	margin: 0;
+	display: inline-flex;
+}
+
+ul.galleryContent li {
+	padding: 10px 16px;
+}
+
+ul.galleryContent li a h3 {
+	display: block;
+	padding: 0 20px;
+}
+
+.navbar-fixed-bottom {
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navbar-fixed-bottom p {
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,71 @@
+@media screen and (max-width: 480px) {
+
+	/*********************************
+	comment
+	*********************************/
+
+	object {
+		width: 84%;
+	}
+
+	h1 {
+		font-size: 1.6rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.6rem;
+	}
+
+	header a h1 {
+		padding: 16px 0 0 0;
+	}
+
+	header h2 {
+		padding: 8px 0 8px 0;
+	}
+
+	/*ul.pages {
+		margin: 0 auto;
+		padding: 0 0 0 0;
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	ul.pages li a h3 {
+		display: block;
+		padding: 0 8px;
+	}*/
+}
+
+@media screen and (min-width: 660px) {
+
+	/*********************************
+	comment
+	*********************************/
+}
+
+@media screen and (min-width: 900px) {
+
+	/*********************************
+	comment
+	*********************************/
+
+	main ul {
+		width: 100%;
+	}
+} 
+
+@media screen and (min-width: 1200px) {
+
+	/*********************************
+	comment
+	*********************************/
+
+	object {
+		width: 47.8%;
+	}	
+}

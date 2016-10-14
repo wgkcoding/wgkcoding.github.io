@@ -1,0 +1,28 @@
+svg#graphic {
+	width:  100%;
+	height: 100%;
+}
+
+#ratSkull {
+}
+
+#triangle {
+}
+
+#chainRing {
+	transform: rotate(45deg);
+	transform-origin: 50% 50%;
+		/*ANIMATION*/
+	animation-name: ringSpin;
+	animation-timing-function: ease-in-out;
+	animation-duration: 6s;
+	animation-delay:	2s;
+	animation-iteration-count:1;
+}
+
+	/*ANIMATION KEYFRAMES*/
+	@keyframes ringSpin {
+		20% {transform: rotate(-45deg);}
+		80% {transform: rotate(450deg);}
+		100%{transform: rotate(405deg);}
+}
