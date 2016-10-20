@@ -127,12 +127,15 @@ img.img-responsive {
 	max-width: 800px;
 	width: 100%;
 	margin:	 0 auto;
-	padding: 140px 0 0 0;
 }
 
 img.img-responsive.svg {
 	padding: 140px 0 0 0;
 	max-width: 42%;
+}
+
+img.img-responsive.photo {
+	padding: 14.2222% 0 0 0;
 }
 
 .placeholder {
