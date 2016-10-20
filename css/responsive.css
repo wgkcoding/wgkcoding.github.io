@@ -63,6 +63,20 @@
 	main ul {
 		width: 100%;
 	}
+
+	img.img-responsive.svg {
+		padding: 10% 0 0 0;
+		width: 60%;
+	}
+
+	img.img-responsive.photo {
+		padding: 14.8888% 0 0 0;
+	}
+
+	object {
+		padding: 2% 0 0 0;
+		width: 52%;
+	}
 } 
 
 @media screen and (min-width: 1200px) {
