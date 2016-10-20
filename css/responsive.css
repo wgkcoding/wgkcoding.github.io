@@ -27,18 +27,6 @@
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
-
-	/*ul.pages {
-		margin: 0 auto;
-		padding: 0 0 0 0;
-		list-style-type: none;
-		display: inline-block;
-	}
-
-	ul.pages li a h3 {
-		display: block;
-		padding: 0 8px;
-	}*/
 }
 
 @media screen and (min-width: 660px) {
@@ -46,6 +34,24 @@
 	/*********************************
 	comment
 	*********************************/
+	
+	img.img-responsive {
+		width: 90%;
+	}
+
+	img.img-responsive.svg {
+		padding: 26.8888% 0 0 0;
+		width: 80%;
+	}
+
+	img.img-responsive.photo {
+		padding: 40% 0 0 0;
+	}
+
+	object {
+		padding: 14.8% 0 0 0;
+		width: 80%;
+	}
 }
 
 @media screen and (min-width: 900px) {
