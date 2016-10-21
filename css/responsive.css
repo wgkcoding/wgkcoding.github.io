@@ -176,6 +176,30 @@
 
 @media screen and (min-width: 2000px) {
 
+	/*********************************
+	comment
+	*********************************/
+
+	img.img-responsive.photo {
+		padding: 34.88% 4% 33.88% 4%;
+	}
+	img.img-responsive.svg {
+		padding: 24.88% 8% 16.8% 8%;
+	}
+	object {
+		padding: 14.88% 8%;
+	}
+	main {
+		margin: 12.4444% 0 0 0;
+	}
+}
+
+@media screen and (min-width: 2050px) {
+
+	/*********************************
+	comment
+	*********************************/
+
 	img.img-responsive.photo {
 		padding: 14.8888% 10% 0 10%;
 	}
@@ -185,12 +209,13 @@
 	object {
 		padding: 0 22.4444%;
 	}
-	main {
-		margin: 12.4444% 0 0 0;
-	}
 }
 
 @media screen and (min-width: 2540px) {
+
+	/*********************************
+	comment
+	*********************************/
 
 	img.img-responsive.photo {
 		padding: 12.88% 8% 0 8%;
@@ -209,6 +234,10 @@
 
 @media screen and (min-width: 2700px) {
 
+	/*********************************
+	comment
+	*********************************/
+
 	img.img-responsive.svg {
 		padding: 9.44% 20% 0 20%;
 	}
@@ -221,6 +250,10 @@
 }
 
 @media screen and (min-width: 2840px) {
+
+	/*********************************
+	comment
+	*********************************/
 
 	img.img-responsive.photo {
 		padding: 10% 14% 0 14%;
