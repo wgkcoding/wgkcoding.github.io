@@ -7,23 +7,18 @@
 	object {
 		width: 84%;
 	}
-
 	h1 {
 		font-size: 1.6rem;
 	}
-
 	h2 {
 		font-size: 2rem;
 	}
-
 	h3 {
 		font-size: 1.6rem;
 	}
-
 	header a h1 {
 		padding: 16px 0 0 0;
 	}
-
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
@@ -38,19 +33,16 @@
 	img.img-responsive {
 		width: 90%;
 	}
-
 	img.img-responsive.svg {
 		padding: 26.8888% 0 0 0;
 		width: 80%;
 	}
-
 	img.img-responsive.photo {
 		padding: 40% 0 0 0;
 	}
-
 	object {
-		padding: 14.8% 0 0 0;
-		width: 80%;
+		padding: 8%;
+		width: 100%;
 	}
 }
 
@@ -63,19 +55,16 @@
 	main ul {
 		width: 100%;
 	}
-
 	img.img-responsive.svg {
 		padding: 10% 0 0 0;
 		width: 60%;
 	}
-
 	img.img-responsive.photo {
 		padding: 14.8888% 0 0 0;
 	}
-
 	object {
-		padding: 2% 0 0 0;
-		width: 52%;
+		padding: 1.2% 24% 24% 24%;
+		width: 100%;
 	}
 } 
 
@@ -89,12 +78,10 @@
 		padding: 6.44% 0 0 0;
 		width: 54%;
 	}
-
 	img.img-responsive.photo {
 		padding: 12% 0 0 0;
 		width: 68.8888%;
 	}
-
 	object {
 		padding: 0;
 		width: 48%;
@@ -103,7 +90,10 @@
 
 @media screen and (min-width: 1534px) {
 
-
+	/*********************************
+	comment
+	*********************************/
+	
 	object {
 		padding: 4% 0;
 		width: 100%
@@ -121,39 +111,31 @@
 	p {
 		font-size: 2.8rem;
 	}
-
 	h1 {
 		font-size: 4.8rem;
 	}
-
 	h2 {
 		font-size: 4.4rem;
 	}
-
 	h3 {
 		font-size: 4.0rem;
 	}
-
 	header a h1 {
 		padding: 32px 0 0 0;
 	}
-
 	header h2 {
 		padding: 24px 0 24px 0;
 	}
 	.navbar-fixed-top li {
 		padding: 0 16px 32px 16px;
 	}
-
 	ul.galleryContent li {
 		padding: 24px 32px;
 	}
-
 	ul.galleryContent li  h3 {
 		display: block;
 		padding: 0 20px;
 	}
-
 	nav li a h3:hover {
 	color: #ff80b3;
 	font-size: 3.6rem;
@@ -185,60 +167,15 @@
 		padding: 12.4444% 0 0 0;
 		width: 54.8888%;
 	}
-
 	img.img-responsive.photo {
 		padding: 14.8888% 0 10% 0;
 		width: 80%;
 	}
-
 	object {
 		padding: 0;
 		width: 54.8888%;
-		/*margin: 4.8888% 0 0 0;*/
 	}
 	main {
 		margin: 12.4444% 0 0 0;
 	}
-
-	/*p {
-		font-size: 2.8rem;
-	}
-
-	h1 {
-		font-size: 3.2rem;
-	}
-
-	h2 {
-		font-size: 4.0rem;
-	}
-
-	h3 {
-		font-size: 3.2rem;
-	}
-
-	header a h1 {
-		padding: 32px 0 0 0;
-	}
-
-	header h2 {
-		padding: 24px 0 24px 0;
-	}*/
-
-	/*.navbar-fixed-top li {
-		padding: 0 4px 12px 4px;
-	}
-
-	ul.galleryContent li {
-		padding: 24px 32px;
-	}
-
-	ul.galleryContent li  h3 {
-		display: block;
-		padding: 0 20px;
-	}
-
-	nav li a h3:hover {
-	color: #ff80b3;
-	font-size: 3.6rem;
-	}*/
 }
