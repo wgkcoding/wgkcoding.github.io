@@ -149,21 +149,21 @@
 	}
 }
 
-@media screen and (min-width: 1678px) {
+@media screen and (min-width: 1660px) {
 
 	object {
-		padding: 0 30.4444%; 
+		padding: 0 34%; 
 		width: 100%
 	}
 	main {
 		margin: 15.22% 0 0 0;
 	}
 	img.img-responsive.photo {
-		padding: 16.2222% 22% 0 22%;
+		padding: 16.22% 26% 0 26%;
 		width: 100%
 	}
 	img.img-responsive.svg {
-		padding: 15.22% 31% 0 31%;
+		padding: 15.22% 34% 0 34%;
 		width: 100%;
 	}	
 }
