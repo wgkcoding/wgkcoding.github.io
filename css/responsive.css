@@ -51,7 +51,7 @@
 	*********************************/
 
 	img.img-responsive.photo {
-		padding: 12% 16% 0 16%;
+		padding: 18% 16% 0 16%;
 	}
 	img.img-responsive.svg {
 		padding: 14.8888% 28.8888% 0 28.8888%;
@@ -71,11 +71,11 @@
 	comment
 	*********************************/
 
+	img.img-responsive.photo {
+		padding: 12.44% 16% 0 16%;
+	}
 	img.img-responsive.svg {
 		padding: 9.84% 26.22% 0 26.22%;
-	}
-	img.img-responsive.photo {
-		padding: 12% 0 0 0;
 	}
 	object {
 		padding: 9.88% 26.44% 0 26.44%;
@@ -206,6 +206,19 @@
 		margin: 10.22% 0 0 0;
 	}
 } 
+
+@media screen and (min-width: 2700px) {
+
+	img.img-responsive.svg {
+		padding: 9.44% 20% 0 20%;
+	}
+	object {
+		padding: 0 20.8888%;
+	}
+	main {
+		margin: 9.4% 0 0 0;
+	}
+}
 
 @media screen and (min-width: 2840px) {
 
