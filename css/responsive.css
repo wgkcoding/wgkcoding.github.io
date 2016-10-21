@@ -61,7 +61,8 @@
 		margin: 0 0 0 0;
 	}
 	img.img-responsive.photo {
-		padding: 14.8888% 0 0 0;
+		padding: 16% 0 0 0;
+		width: 60%;
 	}
 	object {
 		padding: 2% 28.8888% 10% 28.8888%;
