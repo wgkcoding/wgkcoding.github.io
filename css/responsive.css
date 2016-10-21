@@ -58,7 +58,7 @@
 	img.img-responsive.svg {
 		padding: 4.8% 28.8888% 0 28.8888%;
 		width: 100%;
-		margin: 13.6% 0 0 0;
+		margin: calc(13.6% + 50px) 0 0 0;
 	}
 	img.img-responsive.photo {
 		padding: 14.8888% 0 0 0;
