@@ -129,12 +129,12 @@ img.img-responsive {
 }
 
 img.img-responsive.svg {
-	padding: 140px 0 0 0;
-	width: 42%;
+	padding: 0;
+	width: 100%;
 }
 
 img.img-responsive.photo {
-	padding: 14.2222% 0 0 0;
+	width: 100%;
 }
 
 .placeholder {
@@ -176,5 +176,5 @@ ul.galleryContent li  h3 {
 object {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-	width: 54.2%;
+	width: 100%;
 }
