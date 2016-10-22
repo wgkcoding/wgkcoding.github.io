@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
 
 	/*********************************
-	comment
+	iPhone 4
 	*********************************/
 
 	object {
@@ -27,7 +27,7 @@
 @media screen and (min-width: 660px) {
 
 	/*********************************
-	comment
+	iPad PORTRAIT
 	*********************************/
 	
 	img.img-responsive.photo {
@@ -44,10 +44,10 @@
 	}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (orientation: landscape) {
 
 	/*********************************
-	comment
+	iPad LANDSCAPE
 	*********************************/
 
 	img.img-responsive.photo {
@@ -68,7 +68,7 @@
 @media screen and (min-width: 1200px) {
 
 	/*********************************
-	comment
+	MOST DESKTOPS 
 	*********************************/
 
 	img.img-responsive.photo {
@@ -88,7 +88,7 @@
 @media screen and (min-width: 1534px) {
 
 	/*********************************
-	comment
+	iPad RETINA PORTRAIT
 	*********************************/
 	
 	object {
@@ -144,6 +144,10 @@
 
 @media screen and (min-width: 1660px) {
 
+	/*********************************
+	15 INCH MAC BOOK PRO 
+	*********************************/
+
 	object {
 		padding: 0 34%; 
 	}
@@ -158,7 +162,11 @@
 	}	
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) and (oreintation: landscape) {
+
+	/*********************************
+	HD TELEVISION 
+	*********************************/
 
 	img.img-responsive.photo {
 		padding: 14.22% 24% 0 24%;
@@ -177,7 +185,7 @@
 @media screen and (min-width: 2000px) {
 
 	/*********************************
-	comment
+	12.9 INCH iPad PRO PORTRAIT
 	*********************************/
 
 	img.img-responsive.photo {
@@ -194,10 +202,27 @@
 	}
 }
 
+@media screen and (min-width: 2000px) and (orientation: landscape) {
+
+	/*********************************
+	iPad RETINA LANDSCAPE
+	*********************************/
+
+	img.img-responsive.photo {
+		padding: 16% 12%;
+	}
+	img.img-responsive.svg {
+		padding: 12% 22.4444%
+	}
+	object {
+		padding: 0 22.8888%;
+	}
+}
+
 @media screen and (min-width: 2050px) {
 
 	/*********************************
-	comment
+	iPad RETINA 
 	*********************************/
 
 	img.img-responsive.photo {
@@ -214,7 +239,7 @@
 @media screen and (min-width: 2540px) {
 
 	/*********************************
-	comment
+	13 INCH MACBOOK PRO RETINA 
 	*********************************/
 
 	img.img-responsive.photo {
@@ -235,7 +260,7 @@
 @media screen and (min-width: 2700px) {
 
 	/*********************************
-	comment
+	12.9 INCH iPad PRO LANDSCAPE 
 	*********************************/
 
 	img.img-responsive.svg {
@@ -252,7 +277,7 @@
 @media screen and (min-width: 2840px) {
 
 	/*********************************
-	comment
+	15 INCH MACBOOK PRO RETINA
 	*********************************/
 
 	img.img-responsive.photo {
