@@ -1,11 +1,15 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
 	/*********************************
-	iPhone 4
+	iPHONE 1 3G AND 3Gs
+	320 X 480
+	iPHONE 4 AND 4s
+	640 X 960
+	PORTRAIT
 	*********************************/
 
 	object {
-		
+				
 	}
 	h1 {
 		font-size: 1.6rem;
@@ -17,17 +21,35 @@
 		font-size: 1.6rem;
 	}
 	header a h1 {
-		padding: 16px 0 0 0;
+		padding: 0;
+	}
+	header h1 {
+		padding: 0;
 	}
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-device-width: 480px) {
+
+	/********************************
+	iPHONE 1 3G AND 3Gs
+	480 X 320
+	iPHONE 4 AND 4s
+	960 X 640
+	LANDSCAPE
+	********************************/
+
+
+}
+
+@media screen and (min-device-width: 660px) and (-webkit-min-device-pixel-ratio: 1) {
 
 	/*********************************
-	iPad PORTRAIT
+	9.7 INCH iPAD 
+	768 X 1024 
+	PORTRAIT
 	*********************************/
 	
 	img.img-responsive.photo {
@@ -44,10 +66,12 @@
 	}
 }
 
-@media screen and (min-width: 900px) and (orientation: landscape) {
+@media screen and (min-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 
 	/*********************************
-	iPad LANDSCAPE
+	9.7 INCH iPAD 
+	1024 X 768 
+	LANDSCAPE
 	*********************************/
 
 	img.img-responsive.photo {
@@ -88,7 +112,12 @@
 @media screen and (min-width: 1534px) {
 
 	/*********************************
-	iPad RETINA PORTRAIT
+	7.9 INCH iPAD MINI 2 326ppi
+	7.9 INCH iPAD MINI 4 326ppi  
+	9.7 INCH iPAD AIR  2 264ppi
+	9.7 INCH iPAD PRO    264ppi
+	1536 X 2048
+	PORTRAIT
 	*********************************/
 	
 	object {
@@ -145,7 +174,9 @@
 @media screen and (min-width: 1660px) {
 
 	/*********************************
-	15 INCH MAC BOOK PRO 
+	15 INCH MAC BOOK PRO
+	1680 X 1050
+	LANDSCAPE 
 	*********************************/
 
 	object {
@@ -165,7 +196,11 @@
 @media screen and (min-width: 1920px) and (oreintation: landscape) {
 
 	/*********************************
+	21.5 INCH iMAC 
+	MAC MINI HDMI 60Hz
 	HD TELEVISION 
+	1920 X 1080 
+	LANDSCAPE
 	*********************************/
 
 	img.img-responsive.photo {
@@ -185,7 +220,9 @@
 @media screen and (min-width: 2000px) {
 
 	/*********************************
-	12.9 INCH iPad PRO PORTRAIT
+	12.9 INCH iPAD PRO 264ppi 
+	2048 X 2732 
+	PORTRAIT 
 	*********************************/
 
 	img.img-responsive.photo {
@@ -205,7 +242,12 @@
 @media screen and (min-width: 2000px) and (orientation: landscape) {
 
 	/*********************************
-	iPad RETINA LANDSCAPE
+	7.9 INCH iPAD MINI 2 326ppi
+	7.9 INCH iPAD MINI 4 326ppi  
+	9.7 INCH iPAD AIR  2 264ppi
+	9.7 INCH iPAD PRO    264ppi
+	2048 X 1536 
+	LANDSCAPE
 	*********************************/
 
 	img.img-responsive.photo {
@@ -219,13 +261,13 @@
 	}
 }
 
-@media screen and (min-width: 2050px) {
+/*@media screen and (min-width: 2050px) {*/
 
 	/*********************************
 	iPad RETINA 
 	*********************************/
 
-	img.img-responsive.photo {
+	/*img.img-responsive.photo {
 		padding: 14.8888% 10% 0 10%;
 	}
 	img.img-responsive.svg {
@@ -234,12 +276,14 @@
 	object {
 		padding: 0 22.4444%;
 	}
-}
+}*/
 
 @media screen and (min-width: 2540px) {
 
 	/*********************************
-	13 INCH MACBOOK PRO RETINA 
+	13.3 INCH MACBOOK PRO RETINA
+	2560 X 1600
+	LANDSCAPE  
 	*********************************/
 
 	img.img-responsive.photo {
@@ -260,7 +304,9 @@
 @media screen and (min-width: 2700px) {
 
 	/*********************************
-	12.9 INCH iPad PRO LANDSCAPE 
+	12.9 INCH iPad PRO 
+	2732 X 2048 
+	LANDSCAPE
 	*********************************/
 
 	img.img-responsive.svg {
@@ -278,6 +324,8 @@
 
 	/*********************************
 	15 INCH MACBOOK PRO RETINA
+	2880 X 1800
+	LANDSCAPE
 	*********************************/
 
 	img.img-responsive.photo {
