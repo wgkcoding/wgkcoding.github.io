@@ -41,7 +41,23 @@
 	LANDSCAPE
 	********************************/
 
-
+	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
+		padding: 2.5%;
+	}
+	h3 {
+		font-size: 1.1rem;
+	}
+	main {
+		margin: 13.96% 0 0 0;
+	}
+	object {
+		padding: 0 29.168%;
+	}
+	#copyright {
+	padding: 2.292% 0;
+	font-size: 1rem;
+	color: grey;
+	}
 }
 
 @media screen and (min-device-width: 660px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -81,11 +97,30 @@
 		padding: 14.8888% 28.8888% 0 28.8888%;
 		margin: 0 0 0 0;
 	}
+	main {
+		margin: 14.6488% 0 0 0;
+	}
 	object {
-		padding: 2% 28.8888% 10% 28.8888%;
+		padding: 4.884% 28.81% 4.9812% 28.81%;
 	}
 	main ul {
 		width: 100%;
+	}
+	header h1 {
+		padding: 0;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
+		padding: 4.0044%;
+	}
+	.navbar-fixed-top li {
+		padding: 0.098% 3.9074% 1.954% 3.9074%;
+	}
+	#copyright {
+		padding: 1.954%;
+		font-size: 1.3rem;
 	}
 } 
 
