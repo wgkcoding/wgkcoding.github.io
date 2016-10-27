@@ -214,18 +214,43 @@
 	LANDSCAPE 
 	*********************************/
 
+	h1 {
+		font-size: 3.48rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	h3 {
+		font-size: 2.56rem;
+	}
+	header a h1 {
+		padding: 0;
+	}
+	header h1 {
+		padding: 0;
+	}
+	header h2 {
+		padding: 8px 0 8px 0;
+	}
 	object {
-		padding: 0 34%; 
+		padding: 0 30.1918%; 
 	}
 	main {
-		margin: 15.22% 0 0 0;
+		margin: 10.382% 0 0 0;
 	}
 	img.img-responsive.photo {
-		padding: 16.22% 26% 0 26%;
+		padding: 14.8112% 26.8520%;
 	}
 	img.img-responsive.svg {
-		padding: 15.22% 34% 0 34%;
+		padding: 13.8480% 33.8356%;
 	}	
+	.col-lg-6 {
+		padding: 2.2680%;
+	}
+	#copyright {
+		padding: 0.482%;
+		font-size: 1.8rem;
+	}
 }
 
 @media screen and (min-width: 1920px) and (oreintation: landscape) {
