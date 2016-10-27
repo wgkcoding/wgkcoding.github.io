@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
 	/*********************************
 	iPHONE 1 3G AND 3Gs
@@ -31,7 +31,7 @@
 	}
 }
 
-@media screen and (min-device-width: 480px) {
+@media screen and (min-width: 480px) {
 
 	/********************************
 	iPHONE 1 3G AND 3Gs
@@ -91,7 +91,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 	/*********************************
 	9.7 INCH iPAD 
@@ -127,13 +127,27 @@
 	}
 } 
 
-@media screen and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-pixel-ratio: 2) {
+@media screen and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-pixel-ratio: 2) {
 
 	/*********************************
 	9.7 INCH iPAD 3 AND 4
+	7.9 INCH iPAD MINI 2 326ppi
+	7.9 INCH iPAD MINI 4 326ppi  
+	9.7 INCH iPAD AIR  2 264ppi
+	9.7 INCH iPAD PRO    264ppi
+	2048 X 1536 ACTUAL RESOLUTION
+	LANDSCAPE
 	*********************************/
 
-
+	img.img-responsive.photo {
+		padding: 16% 12%;
+	}
+	img.img-responsive.svg {
+		padding: 12% 22.4444%
+	}
+	object {
+		padding: 0 22.8888%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -322,7 +336,7 @@
 	LANDSCAPE
 	*********************************/
 
-	img.img-responsive.photo {
+/*	img.img-responsive.photo {
 		padding: 16% 12%;
 	}
 	img.img-responsive.svg {
@@ -330,7 +344,7 @@
 	}
 	object {
 		padding: 0 22.8888%;
-	}
+	}*/
 }
 
 /*@media screen and (min-width: 2050px) {*/
