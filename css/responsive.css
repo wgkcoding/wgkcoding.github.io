@@ -60,7 +60,7 @@
 	}
 }
 
-@media screen and (min-device-width: 660px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 660px) {
 
 	/*********************************
 	9.7 INCH iPAD 
@@ -80,9 +80,18 @@
 	main {
 		margin: 18.22% 0 0 0;
 	}
+	header h1 {
+		padding: 0;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	#copyright {
+		font-size: 1.2rem;
+	}
 }
 
-@media screen and (min-device-width: 900px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 	/*********************************
 	9.7 INCH iPAD 
@@ -106,12 +115,6 @@
 	main ul {
 		width: 100%;
 	}
-	header h1 {
-		padding: 0;
-	}
-	h3 {
-		font-size: 1.8rem;
-	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
 	}
@@ -123,6 +126,15 @@
 		font-size: 1.3rem;
 	}
 } 
+
+@media screen and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-pixel-ratio: 2) {
+
+	/*********************************
+	9.7 INCH iPAD 3 AND 4
+	*********************************/
+
+
+}
 
 @media screen and (min-width: 1200px) {
 
