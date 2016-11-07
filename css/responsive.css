@@ -127,7 +127,7 @@
 	}
 } 
 
-@media screen and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-pixel-ratio: 2) {
+@media screen and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 2dppx) {
 
 	/*********************************
 	9.7 INCH iPAD 3 AND 4
@@ -160,13 +160,13 @@
 		padding: 12.44% 16% 0 16%;
 	}
 	img.img-responsive.svg {
-		padding: 9.84% 26.22% 0 26.22%;
+		padding: 9.452% 26.6668% 0px 26.6668%;
 	}
 	object {
-		padding: 0.1568% 29.2980%;
+		padding: 0 25.1668%;
 	}
 	main {
-		margin: 13.9142% 0 0 0;
+		margin: 9.2188% 0 0 0;
 	}
 }
 

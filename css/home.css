@@ -1,9 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #505050;
 }
 
 main {
-	margin: 31.564% 0 0 0;
+	margin: 0;
 }
 
 .container {
@@ -26,6 +30,10 @@ div.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
 div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 	display: inline-block;
 	padding: 5%;
+}
+
+button {
+	background-color: #303030;
 }
 
 p {
@@ -71,15 +79,6 @@ header .navbar-fixed-top ul {
 	list-style: none; 
 }
 
-a:hover {
-	text-decoration: none;
-}
-
-nav li a h3:hover {
-	color: #ff80b3;
-	font-size: 2.2rem;
-}
-
 .navbar-fixed-top {
 	text-align: center;
 	display: inline-block;
@@ -91,8 +90,16 @@ nav li a h3:hover {
 
 .navbar-fixed-top li {
 	padding: 0 0 6px 0;
-	float: none;
+	width: 100%;
 	display: inline-block;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+	background-color: #303030;
+}
+
+span.caret {
+	width: 50%;
 }
 
 .navbar-fixed-top.row {
@@ -100,6 +107,7 @@ nav li a h3:hover {
 }
 
 .navbar-fixed-bottom {
+	padding: 0 30px;
 	height: auto;
 	text-align: center;
 	vertical-align: middle;
@@ -110,6 +118,10 @@ nav li a h3:hover {
 .navbar-fixed-bottom p {
 	padding: 0;
 	margin: 0;
+}
+
+.navbar-fixed-bottom ul li:nth-child(2) {
+	padding: 0 20px;
 }
 
 #copyright {
@@ -127,8 +139,9 @@ img.img-responsive {
 }
 
 img.img-responsive.svg {
-	padding: 0;
 	width: 100%;
+	height: 100vh;
+	padding: 30% 0 40% 0;
 }
 
 img.img-responsive.photo {
@@ -140,6 +153,7 @@ img.img-responsive.photo {
 }
 
 ul {
+	max-width: 100%;
 	display: inline;
 	padding: 0;
 }
@@ -163,20 +177,25 @@ ul.galleryContent {
 }
 
 ul.galleryContent li {
-	padding: 10px 16px;
+	padding: 0;
 }
 
 ul.galleryContent li  h3 {
 	display: block;
-	padding: 0 20px;
+	padding: 0;
 }
 
-svg#graphic {
+a:hover {
+	text-decoration: none;
+}
 
+nav li a h3:hover {
+	color: #ff80b3;
+	font-size: 1.6rem;
 }
 
 object {
-	margin:	 0;
-	padding: 15%;
+	padding: 25% 10%;
+	height: 100vh;
 	width:	 100%;
 }
