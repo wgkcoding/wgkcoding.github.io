@@ -49,11 +49,6 @@ button.btn.btn-primary.dropdown-toggle {
 	background-repeat: round;
 }
 
-button.img-responsive {
-	/*color: lightgray;*/
-	width: 24px;
-}
-
 button {
 	background-color: lightgray;
 }
@@ -151,15 +146,20 @@ header .navbar-fixed-top ul {
 	padding:0;
 }
 
+li.photo-list {
+	height: 100vh;
+	padding: 40% 5%;
+}
+
 img.img-responsive {
 	width: 100%;
 	margin:	 0 auto;
 }
 
-img.img-responsive.svg {
+li.svg {
 	width: 100%;
 	height: 100vh;
-	padding: 30% 0 40% 0;
+	padding: 30% 10% 10% 10%;
 }
 
 img.img-responsive.photo {
@@ -213,7 +213,7 @@ nav li a h3:hover {
 }
 
 object {
-	padding: 25% 10%;
+	padding: 25% 10% 20% 10%;
 	height: 100vh;
 	width:	 100%;
 }
