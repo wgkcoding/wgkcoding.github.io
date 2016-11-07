@@ -22,6 +22,10 @@ main {
 	padding:0;
 }
 
+.dropdown {
+	background-color: lightgray;
+}
+
 div.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
 	text-align: center;
 	padding: 0;
@@ -32,8 +36,26 @@ div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 	padding: 5%;
 }
 
+.open>button.btn.btn-primary.dropdown-toggle {
+	background-color: inherit;
+	background-image: url(../assets/icons/burger-drop-up.svg);
+	background-repeat: round;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+	background-color: inherit;
+	padding: 0.8432%;
+	background-image: url(../assets/icons/burger-drop-down.svg);
+	background-repeat: round;
+}
+
+button.img-responsive {
+	/*color: lightgray;*/
+	width: 24px;
+}
+
 button {
-	background-color: #303030;
+	background-color: lightgray;
 }
 
 p {
@@ -94,14 +116,6 @@ header .navbar-fixed-top ul {
 	display: inline-block;
 }
 
-button.btn.btn-primary.dropdown-toggle {
-	background-color: #303030;
-}
-
-span.caret {
-	width: 50%;
-}
-
 .navbar-fixed-top.row {
 	background-color: none;
 }
@@ -127,6 +141,10 @@ span.caret {
 #copyright {
 	padding: 3.44% 0;
 	color: grey;
+}
+#menu-icon {
+	width: 36px;
+	height: 36px;
 }
 
 .SVG li {

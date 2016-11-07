@@ -75,10 +75,11 @@
 		padding: 14.844% 6.512% 0 6.512%;
 	}
 	object {
-		padding: 8%;
+		height: 100vh;
+		padding: 0;
 	}
 	main {
-		margin: 18.22% 0 0 0;
+		margin: 0;
 	}
 	header h1 {
 		padding: 0;
@@ -107,10 +108,10 @@
 		margin: 0 0 0 0;
 	}
 	main {
-		margin: 14.6488% 0 0 0;
+		margin: 0;
 	}
 	object {
-		padding: 4.884% 28.81% 0 28.81%;
+		padding: 13.282% 22.657% 7.228% 22.657%;
 	}
 	main ul {
 		width: 100%;
@@ -146,7 +147,7 @@
 		padding: 12% 22.4444%
 	}
 	object {
-		padding: 0 22.8888%;
+		padding: 13.282% 22.657% 7.228% 22.657%;
 	}
 }
 
@@ -157,16 +158,18 @@
 	*********************************/
 
 	img.img-responsive.photo {
-		padding: 12.44% 16% 0 16%;
+		/*padding: 12.44% 16% 0 16%;*/
+		padding: 12.012% 8.008% 8.008% 8.008%;
 	}
 	img.img-responsive.svg {
-		padding: 9.452% 26.6668% 0px 26.6668%;
+		/*padding: 9.452% 26.6668% 0px 26.6668%;*/
+		padding: 12.012% 8.008% 8.008% 8.008%;
 	}
 	object {
-		padding: 0 25.1668%;
+		padding: 12.012% 8.008% 8.008% 8.008%;
 	}
 	main {
-		margin: 9.2188% 0 0 0;
+		margin: 0;
 	}
 }
 
@@ -181,12 +184,12 @@
 	PORTRAIT
 	*********************************/
 	
-	object {
+	/*object {
 		padding: 4% 0;
 	}
 	main {
 		margin: 16.4444% 0 0 0;
-	}
+	}*/
 	img.img-responsive.photo {
 		padding: 8.2020% 0 0 0;
 	}
@@ -258,12 +261,6 @@
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
-	object {
-		padding: 0 30.1918%; 
-	}
-	main {
-		margin: 10.382% 0 0 0;
-	}
 	img.img-responsive.photo {
 		padding: 14.8112% 26.8520%;
 	}
@@ -295,12 +292,6 @@
 	img.img-responsive.svg {
 		padding: 13.2222% 32.44% 0 32.44%;
 	}
-	object {
-		padding: 0 32.4%;
-	}
-	main {
-		margin: 13.28% 0 0 0; 
-	}
 }
 
 @media screen and (min-width: 2000px) {
@@ -311,17 +302,33 @@
 	PORTRAIT 
 	*********************************/
 
+	h1 {
+		font-size: 6.96rem;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 5.12rem;
+	}
+	header a h1 {
+		padding: 0;
+	}
+	header h1 {
+		padding: 0;
+	}
+	header h2 {
+		padding: 8px 0 8px 0;
+	}
 	img.img-responsive.photo {
 		padding: 34.88% 4% 33.88% 4%;
 	}
 	img.img-responsive.svg {
 		padding: 24.88% 8% 16.8% 8%;
 	}
-	object {
-		padding: 14.88% 8%;
-	}
-	main {
-		margin: 12.4444% 0 0 0;
+	#copyright {
+		padding: 0.482%;
+		font-size: 3.6rem;
 	}
 }
 
@@ -336,33 +343,12 @@
 	LANDSCAPE
 	*********************************/
 
-/*	img.img-responsive.photo {
+	img.img-responsive.photo {
 		padding: 16% 12%;
 	}
 	img.img-responsive.svg {
 		padding: 12% 22.4444%
-	}
-	object {
-		padding: 0 22.8888%;
-	}*/
 }
-
-/*@media screen and (min-width: 2050px) {*/
-
-	/*********************************
-	iPad RETINA 
-	*********************************/
-
-	/*img.img-responsive.photo {
-		padding: 14.8888% 10% 0 10%;
-	}
-	img.img-responsive.svg {
-		padding: 12.4444% 22.4444% 0 22.4444%;
-	}
-	object {
-		padding: 0 22.4444%;
-	}
-}*/
 
 @media screen and (min-width: 2540px) {
 
@@ -378,13 +364,6 @@
 	img.img-responsive.svg {
 		padding: 10.22% 26.88% 0 26.88%;
 	}
-	object {
-		padding: 0 28%;
-	}
-	main {
-		padding: 0;
-		margin: 10.22% 0 0 0;
-	}
 } 
 
 @media screen and (min-width: 2700px) {
@@ -397,12 +376,6 @@
 
 	img.img-responsive.svg {
 		padding: 9.44% 20% 0 20%;
-	}
-	object {
-		padding: 0 20.8888%;
-	}
-	main {
-		margin: 9.44% 0 0 0;
 	}
 }
 
@@ -419,11 +392,5 @@
 	}
 	img.img-responsive.svg {
 		padding: 8.4444% 24.8888%;
-	}
-	object {
-		padding: 0 26.4444%;
-	}
-	main {
-		margin: 8.8888% 0 0 0;
 	}
 }
