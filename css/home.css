@@ -160,7 +160,7 @@ li.svg {
 }
 
 img.img-responsive.photo {
-	width: 100%;
+	max-width: 100%;
 }
 
 .placeholder {
