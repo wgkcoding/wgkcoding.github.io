@@ -44,9 +44,10 @@ div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 
 button.btn.btn-primary.dropdown-toggle {
 	background-color: inherit;
-	padding: 0.8432%;
+	padding: 0;
 	background-image: url(../assets/icons/burger-drop-down.svg);
 	background-repeat: round;
+	border: none;
 }
 
 button {
