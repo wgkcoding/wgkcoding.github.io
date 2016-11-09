@@ -76,7 +76,7 @@
 	}
 	object {
 		height: 100vh;
-		padding: 0;
+		padding: 13.022%;
 	}
 	main {
 		margin: 0;
@@ -100,13 +100,13 @@
 	LANDSCAPE
 	*********************************/
 
-	img.img-responsive.photo {
+	/*img.img-responsive.photo {
 		padding: 16.6022% 20.508% 0 20.508%;
 	}
 	img.img-responsive.svg {
 		padding: 14.8888% 28.8888% 0 28.8888%;
 		margin: 0 0 0 0;
-	}
+	}*/
 	main {
 		margin: 0;
 	}
