@@ -69,13 +69,16 @@
 	*********************************/
 	
 	img.img-responsive.photo {
-		padding: 32.554% 6.512% 32.554% 6.512%;
+		/*padding: 32.554% 6.512% 32.554% 6.512%;*/
 	}
 	img.img-responsive.svg {
 		/*padding: 14.844% 6.512% 0 6.512%;*/
 	}
 	li.svg {
 		padding: 20.054% 9.896% 9.896% 9.896%;
+	}
+	li.photo-list {
+		padding: 32.292% 6.512% 0 6.512%;
 	}
 	object {
 		height: 100vh;
