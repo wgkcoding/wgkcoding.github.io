@@ -142,10 +142,6 @@ header .navbar-fixed-top ul {
 	height: 36px;
 }
 
-.SVG li {
-	padding:0;
-}
-
 li.photo-list {
 	height: 100vh;
 	padding: 40% 5%;
@@ -190,7 +186,7 @@ ul.pages li a h3 {
 
 ul.galleryContent {
 	list-style: none;
-	margin: 0;
+	margin: 8px 0 0 0;
 	display: inline-flex;
 }
 
