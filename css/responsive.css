@@ -68,6 +68,9 @@
 	PORTRAIT
 	*********************************/
 	
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 0 124px;
+	}
 	li.svg {
 		padding: 14.844% 9.896% 0 9.896%;
 	}
