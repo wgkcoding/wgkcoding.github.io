@@ -38,9 +38,6 @@
 	LANDSCAPE
 	********************************/
 
-	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
-		padding: 2.5%;
-	}
 	h3 {
 		font-size: 1.1rem;
 	}
@@ -49,6 +46,9 @@
 	}
 	object {
 		padding: 0 29.168%;
+	}
+	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
+		padding: 2.5%;
 	}
 	#copyright {
 	padding: 2.292% 0;
@@ -65,8 +65,15 @@
 	PORTRAIT
 	*********************************/
 	
-	.navbar-fixed-bottom ul li:nth-child(2) {
-		padding: 0 124px;
+	h3 {
+		font-size: 2.2rem;
+	}
+	header h1 {
+		padding: 0;
+	}
+	object {
+		height: 100vh;
+		padding: 13.022%;
 	}
 	.svg-list {
 		padding: 14.844% 9.896% 0 9.896%;
@@ -74,18 +81,8 @@
 	.photo-list {
 		padding: 30.21% 6.512% 0 6.512%;
 	}
-	object {
-		height: 100vh;
-		padding: 13.022%;
-	}
-	main {
-		margin: 0;
-	}
-	header h1 {
-		padding: 0;
-	}
-	h3 {
-		font-size: 2.2rem;
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 0 124px;
 	}
 	#copyright {
 		font-size: 1.2rem;
@@ -100,17 +97,17 @@
 	LANDSCAPE
 	*********************************/
 
-	main {
-		margin: 0;
-	}
-	main ul {
+	/*main ul {
 		width: 100%;
-	}
+	}*/
 	object {
 		padding: 9.766% 29.2982% 0 29.2982%;
 	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
+	}
+	.navbar-fixed-top li {
+		padding: 0.098% 3.9074% 1.954% 3.9074%;
 	}
 	li.svg-list {
 		padding: 146px 29.2982% 0 29.2982%;
@@ -118,11 +115,11 @@
 	img.img-responsive.svg {
 		padding: 0;
 	}
-	img.img-responsive.photo {
-		padding: 16% 12%;
+	li.photo-list {
+		padding: 0;
 	}
-	.navbar-fixed-top li {
-		padding: 0.098% 3.9074% 1.954% 3.9074%;
+	img.img-responsive.photo {
+		padding: 0;
 	}
 	#copyright {
 		padding: 1.954%;
@@ -164,9 +161,6 @@
 
 	object {
 		padding: 12.012% 8.008% 8.008% 8.008%;
-	}
-	main {
-		margin: 0;
 	}
 	li.photo-list {
 		padding: 10.616% 6.066%;
