@@ -100,13 +100,6 @@
 	LANDSCAPE
 	*********************************/
 
-	/*img.img-responsive.photo {
-		padding: 16.6022% 20.508% 0 20.508%;
-	}
-	img.img-responsive.svg {
-		padding: 14.8888% 28.8888% 0 28.8888%;
-		margin: 0 0 0 0;
-	}*/
 	main {
 		margin: 0;
 	}
@@ -118,6 +111,15 @@
 	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
+	}
+	li.svg-list {
+		padding: 0;
+	}
+	img.img-responsive.svg {
+		padding: 146px 29.2982% 0 29.2982%;
+	}
+	img.img-responsive.photo {
+		padding: 16% 12%;
 	}
 	.navbar-fixed-top li {
 		padding: 0.098% 3.9074% 1.954% 3.9074%;
@@ -143,8 +145,11 @@
 	img.img-responsive.photo {
 		padding: 16% 12%;
 	}
+	li.svg-list {
+		padding: 0;
+	}
 	img.img-responsive.svg {
-		padding: 12% 22.4444%
+		padding: 146px 28.126% 0 28.126%;
 	}
 	object {
 		padding: 146px 28.126% 0 28.126%;
