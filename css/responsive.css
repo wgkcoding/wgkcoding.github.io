@@ -8,9 +8,6 @@
 	PORTRAIT
 	*********************************/
 
-	object {
-				
-	}
 	h1 {
 		font-size: 1.6rem;
 	}
@@ -71,10 +68,10 @@
 	.navbar-fixed-bottom ul li:nth-child(2) {
 		padding: 0 124px;
 	}
-	li.svg {
+	.svg {
 		padding: 14.844% 9.896% 0 9.896%;
 	}
-	li.photo-list {
+	.photo-list {
 		padding: 30.21% 6.512% 0 6.512%;
 	}
 	object {
@@ -88,7 +85,7 @@
 		padding: 0;
 	}
 	h3 {
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 	}
 	#copyright {
 		font-size: 1.2rem;
@@ -238,7 +235,7 @@
 	}
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1680px) {
 
 	/*********************************
 	15 INCH MAC BOOK PRO
@@ -264,18 +261,21 @@
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
+	li.svg {
+		padding: 8.81% 29.643% 0 29.643%;
+	}
 	img.img-responsive.photo {
 		padding: 14.8112% 26.8520%;
 	}
-	img.img-responsive.svg {
-		padding: 13.8480% 33.8356%;
-	}	
 	.col-lg-6 {
 		padding: 2.2680%;
 	}
 	#copyright {
 		padding: 0.482%;
 		font-size: 1.8rem;
+	}
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 24px 124px;
 	}
 }
 
