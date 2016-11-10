@@ -190,9 +190,9 @@
 	main {
 		margin: 16.4444% 0 0 0;
 	}*/
-	img.img-responsive.photo {
+	/*img.img-responsive.photo {
 		padding: 8.2020% 0 0 0;
-	}
+	}*/
 	img.img-responsive.svg {
 		padding: 7.2222% 0 0 0;
 	}	
@@ -261,21 +261,24 @@
 	header h2 {
 		padding: 8px 0 8px 0;
 	}
+	.col-lg-6 {
+		padding: 2.2680%;
+	}
 	li.svg {
 		padding: 8.81% 29.643% 0 29.643%;
 	}
-	img.img-responsive.photo {
-		padding: 14.8112% 26.8520%;
+	li.photo-list {
+		padding: 0 14.286%;
 	}
-	.col-lg-6 {
-		padding: 2.2680%;
+	img.img-responsive.photo {
+		padding: 11% 0;
+	}
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 24px 124px;
 	}
 	#copyright {
 		padding: 0.482%;
 		font-size: 1.8rem;
-	}
-	.navbar-fixed-bottom ul li:nth-child(2) {
-		padding: 24px 124px;
 	}
 }
 
