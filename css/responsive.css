@@ -95,7 +95,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
 
 	/*********************************
-	9.7 INCH iPAD 
+	9.7 INCH iPAD 1 AND 2
 	1024 X 768 
 	LANDSCAPE
 	*********************************/
@@ -114,7 +114,7 @@
 		width: 100%;
 	}
 	object {
-		padding: 146px 28.126% 0 28.126%;
+		padding: 146px 29.2982% 0 29.2982%;
 	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
