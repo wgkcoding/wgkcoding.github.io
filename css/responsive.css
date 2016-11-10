@@ -68,7 +68,7 @@
 	.navbar-fixed-bottom ul li:nth-child(2) {
 		padding: 0 124px;
 	}
-	.svg {
+	.svg-list {
 		padding: 14.844% 9.896% 0 9.896%;
 	}
 	.photo-list {
@@ -157,19 +157,24 @@
 	MOST DESKTOPS 
 	*********************************/
 
-	img.img-responsive.photo {
-		/*padding: 12.44% 16% 0 16%;*/
-		padding: 12.012% 8.008% 8.008% 8.008%;
-	}
-	img.img-responsive.svg {
-		/*padding: 9.452% 26.6668% 0px 26.6668%;*/
-		padding: 12.012% 8.008% 8.008% 8.008%;
-	}
 	object {
 		padding: 12.012% 8.008% 8.008% 8.008%;
 	}
 	main {
 		margin: 0;
+	}
+	li.photo-list {
+		padding: 10.616% 6.066%;
+	}
+	img.img-responsive.photo {
+		padding: 0;
+	}
+	li.svg-list {
+		padding: 0 22.242%;
+	}
+	img.img-responsive.svg {
+		height: 100%;
+		padding: 0 0 80px 0;
 	}
 }
 
