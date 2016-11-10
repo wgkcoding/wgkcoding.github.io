@@ -100,6 +100,9 @@
 	/*main ul {
 		width: 100%;
 	}*/
+	main {
+		margin: 0;
+	}
 	object {
 		padding: 9.766% 29.2982% 0 29.2982%;
 	}
