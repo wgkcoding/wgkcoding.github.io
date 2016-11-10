@@ -107,7 +107,7 @@
 		width: 100%;
 	}
 	object {
-		padding: 146px 29.2982% 0 29.2982%;
+		padding: 124px 29.2982% 0 29.2982%;
 	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
@@ -142,7 +142,7 @@
 	LANDSCAPE
 	*********************************/
 
-	img.img-responsive.photo {
+	/*img.img-responsive.photo {
 		padding: 16% 12%;
 	}
 	li.svg-list {
@@ -153,7 +153,7 @@
 	}
 	object {
 		padding: 146px 28.126% 0 28.126%;
-	}
+	}*/
 }
 
 @media screen and (min-width: 1200px) {
