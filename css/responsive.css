@@ -92,7 +92,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
 
 	/*********************************
 	9.7 INCH iPAD 
@@ -110,11 +110,11 @@
 	main {
 		margin: 0;
 	}
-	object {
-		padding: 13.282% 22.657% 7.228% 22.657%;
-	}
 	main ul {
 		width: 100%;
+	}
+	object {
+		padding: 146px 28.126% 0 28.126%;
 	}
 	div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 		padding: 4.0044%;
