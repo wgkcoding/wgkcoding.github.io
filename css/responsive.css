@@ -71,11 +71,14 @@
 	header h1 {
 		padding: 0;
 	}
+	main {
+		margin: 0;
+	}
 	object {
 		height: 100vh;
 		padding: 13.022%;
 	}
-	.svg-list {
+	li.svg-list {
 		padding: 14.844% 9.896% 0 9.896%;
 	}
 	.photo-list {
@@ -100,9 +103,6 @@
 	/*main ul {
 		width: 100%;
 	}*/
-	main {
-		margin: 0;
-	}
 	object {
 		padding: 9.766% 29.2982% 0 29.2982%;
 	}
