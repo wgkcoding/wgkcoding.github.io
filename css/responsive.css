@@ -57,6 +57,18 @@
 	}
 }
 
+@media screen and (min-width: 412px) and (max-width: 732px) and (min-resolution: 3.5dppx) {
+
+	/********************************
+	NEXUS 6P
+	1440 X 2560 ~518 ppi 
+	********************************/
+
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 0 64px;
+	}
+}
+
 @media screen and (min-width: 660px) {
 
 	/*********************************
