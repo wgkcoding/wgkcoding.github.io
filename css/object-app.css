@@ -8,16 +8,10 @@ svg#graphic {
 }
 
 #chainRing {
-	/*transform: rotate (45deg);
-	transform-origin: 50% 50%;*/
 		/*ANIMATION*/
-	animation-name: ringSpin;
-	animation-timing-function: cubic-bezier(0.6, 1.5, 0.6, 1);
-	animation-duration: 	 3s;
-	animation-delay:		.5s;
-	animation-iteration-count:1;
+	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
 }
-	/*ANIMATION KEYFRAMES*/
+		/*ANIMATION KEYFRAMES*/
 	@keyframes ringSpin {
 		20% {transform: rotate(-45deg);}
 		80% {transform: rotate(405deg);}
