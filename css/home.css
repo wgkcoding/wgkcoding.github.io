@@ -55,6 +55,10 @@ button {
 	background-color: lightgray;
 }
 
+.dropdown-menu>li>a {
+	padding: 0 30px;
+}
+
 p {
 	text-align: center;
 	color: grey;
@@ -81,8 +85,6 @@ h2 {
 
 h3 {
 	letter-spacing: 2.8px;
-	/*font-size: 2.0rem;*/
-	font-size: 1.6rem;
 	color: grey;
 }
 
@@ -108,13 +110,19 @@ header .navbar-fixed-top ul {
 }
 
 .navbar-fixed-top li {
-	padding: 0 0 6px 0;
+	padding: 12px 0 0 0;
 	width: 100%;
 	display: inline-block;
+	text-align: center;
 }
 
 .navbar-fixed-top.row {
 	background-color: none;
+}
+
+ul.dropdown-menu>li.divider {
+	margin: 0;
+	padding: 2px 0;
 }
 
 .navbar-fixed-bottom {

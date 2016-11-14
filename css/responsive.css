@@ -1,3 +1,19 @@
+@media screen and (min-width: 412px) and (max-width: 732px) and (min-resolution: 3.5dppx) {
+
+	/********************************
+	NEXUS 6P
+	1440 X 2560 ~518 ppi 
+	********************************/
+
+	.col-lg-6 {
+		padding: 2.428%;
+	}
+
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 0 64px;
+	}
+}
+
 @media screen and (max-width: 480px) {
 
 	/*********************************
@@ -12,10 +28,10 @@
 		font-size: 1.6rem;
 	}
 	h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	h3 {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 	header a h1 {
 		padding: 0;
@@ -54,22 +70,6 @@
 	padding: 2.292% 0;
 	font-size: 1rem;
 	color: grey;
-	}
-}
-
-@media screen and (min-width: 412px) and (max-width: 732px) and (min-resolution: 3.5dppx) {
-
-	/********************************
-	NEXUS 6P
-	1440 X 2560 ~518 ppi 
-	********************************/
-
-	.col-lg-6 {
-		padding: 2.428%;
-	}
-
-	.navbar-fixed-bottom ul li:nth-child(2) {
-		padding: 0 64px;
 	}
 }
 
@@ -116,9 +116,6 @@
 	LANDSCAPE
 	*********************************/
 
-	/*main ul {
-		width: 100%;
-	}*/
 	object {
 		padding: 4.884% 29.2982% 0 29.2982%;
 	}
@@ -145,6 +142,59 @@
 		font-size: 1.3rem;
 	}
 } 
+
+@media screen and (min-width: 768px) and (max-width: 1024) and (min-resolution: 2dppx) {
+
+	/*********************************
+	7.9 INCH iPAD MINI 2 326ppi
+	7.9 INCH iPAD MINI 4 326ppi  
+	9.7 INCH iPAD AIR  2 264ppi
+	9.7 INCH iPAD PRO    264ppi
+	1536 X 2048
+	PORTRAIT
+	*********************************/
+	
+	img.img-responsive.svg {
+		padding: 7.2222% 0 0 0;
+	}	
+	p {
+		font-size: 2.8rem;
+	}
+	h1 {
+		font-size: 4.8rem;
+	}
+	h2 {
+		font-size: 4.4rem;
+	}
+	h3 {
+		font-size: 4.0rem;
+	}
+	header a h1 {
+		padding: 32px 0 0 0;
+	}
+	header h2 {
+		padding: 24px 0 24px 0;
+	}
+	.navbar-fixed-top li {
+		padding: 0 16px 32px 16px;
+	}
+	ul.galleryContent li {
+		padding: 24px 32px;
+	}
+	ul.galleryContent li  h3 {
+		display: block;
+		padding: 0 20px;
+	}
+	nav li a h3:hover {
+	color: #ff80b3;
+	font-size: 3.6rem;
+	}
+	#copyright {
+		font-size: 3.6rem;
+		padding: 2.0000% 0;
+		color: grey;
+	}
+}
 
 @media screen and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 2dppx) {
 
@@ -196,72 +246,10 @@
 	}
 }
 
-@media screen and (min-width: 1534px) {
+@media screen and (min-width: 1050px) and (max-width: 1680px) and (orientation: landscape) {
 
 	/*********************************
-	7.9 INCH iPAD MINI 2 326ppi
-	7.9 INCH iPAD MINI 4 326ppi  
-	9.7 INCH iPAD AIR  2 264ppi
-	9.7 INCH iPAD PRO    264ppi
-	1536 X 2048
-	PORTRAIT
-	*********************************/
-	
-	/*object {
-		padding: 4% 0;
-	}
-	main {
-		margin: 16.4444% 0 0 0;
-	}*/
-	/*img.img-responsive.photo {
-		padding: 8.2020% 0 0 0;
-	}*/
-	img.img-responsive.svg {
-		padding: 7.2222% 0 0 0;
-	}	
-	p {
-		font-size: 2.8rem;
-	}
-	h1 {
-		font-size: 4.8rem;
-	}
-	h2 {
-		font-size: 4.4rem;
-	}
-	h3 {
-		font-size: 4.0rem;
-	}
-	header a h1 {
-		padding: 32px 0 0 0;
-	}
-	header h2 {
-		padding: 24px 0 24px 0;
-	}
-	.navbar-fixed-top li {
-		padding: 0 16px 32px 16px;
-	}
-	ul.galleryContent li {
-		padding: 24px 32px;
-	}
-	ul.galleryContent li  h3 {
-		display: block;
-		padding: 0 20px;
-	}
-	nav li a h3:hover {
-	color: #ff80b3;
-	font-size: 3.6rem;
-	}
-	#copyright {
-		font-size: 3.6rem;
-		padding: 2.0000% 0;
-		color: grey;
-	}
-}
-
-@media screen and (min-width: 1680px) {
-
-	/*********************************
-	15 INCH MAC BOOK PRO
+	15 INCH MAC BOOK PRO LATE 2011
 	1680 X 1050
 	LANDSCAPE 
 	*********************************/
@@ -305,121 +293,18 @@
 	}
 }
 
-@media screen and (min-width: 1920px) and (oreintation: landscape) {
-
-	/*********************************
-	21.5 INCH iMAC 
-	MAC MINI HDMI 60Hz
-	HD TELEVISION 
-	1920 X 1080 
-	LANDSCAPE
-	*********************************/
-
-	img.img-responsive.photo {
-		padding: 14.22% 24% 0 24%;
-	}
-	img.img-responsive.svg {
-		padding: 13.2222% 32.44% 0 32.44%;
-	}
-}
-
-@media screen and (min-width: 2000px) {
-
-	/*********************************
-	12.9 INCH iPAD PRO 264ppi 
-	2048 X 2732 
-	PORTRAIT 
-	*********************************/
-
-	h1 {
-		font-size: 6.96rem;
-	}
-	h2 {
-		font-size: 4rem;
-	}
-	h3 {
-		font-size: 5.12rem;
-	}
-	header a h1 {
-		padding: 0;
-	}
-	header h1 {
-		padding: 0;
-	}
-	header h2 {
-		padding: 8px 0 8px 0;
-	}
-	img.img-responsive.photo {
-		padding: 34.88% 4% 33.88% 4%;
-	}
-	img.img-responsive.svg {
-		padding: 24.88% 8% 16.8% 8%;
-	}
-	#copyright {
-		padding: 0.482%;
-		font-size: 3.6rem;
-	}
-}
-
-@media screen and (min-width: 2000px) and (orientation: landscape) {
-
-	/*********************************
-	7.9 INCH iPAD MINI 2 326ppi
-	7.9 INCH iPAD MINI 4 326ppi  
-	9.7 INCH iPAD AIR  2 264ppi
-	9.7 INCH iPAD PRO    264ppi
-	2048 X 1536 
-	LANDSCAPE
-	*********************************/
-
-	img.img-responsive.photo {
-		padding: 16% 12%;
-	}
-	img.img-responsive.svg {
-		padding: 12% 22.4444%
-}
-
-@media screen and (min-width: 2540px) {
-
-	/*********************************
-	13.3 INCH MACBOOK PRO RETINA
-	2560 X 1600
+@media screen and (max-width: 2560px) and (min-height: 1440px) {
+	
+	/********************************
+	27 INCH iMAC
+	2560 X 1440
 	LANDSCAPE  
-	*********************************/
+	********************************/
 
+	li.photo-list {
+		padding: 0;
+	}
 	img.img-responsive.photo {
-		padding: 12.4444% 16.8888%;
-	}
-	img.img-responsive.svg {
-		padding: 10.22% 26.88% 0 26.88%;
-	}
-} 
-
-@media screen and (min-width: 2700px) {
-
-	/*********************************
-	12.9 INCH iPad PRO 
-	2732 X 2048 
-	LANDSCAPE
-	*********************************/
-
-	img.img-responsive.svg {
-		padding: 9.44% 20% 0 20%;
-	}
-}
-
-@media screen and (min-width: 2840px) {
-
-	/*********************************
-	15 INCH MACBOOK PRO RETINA
-	2880 X 1800
-	LANDSCAPE
-	*********************************/
-
-	img.img-responsive.photo {
-		padding: 10% 14% 0 14%;
-	}
-	img.img-responsive.svg {
-		padding: 8.4444% 24.8888%;
+		padding: 9.8232% 19.6468% .9828% 19.6468%;
 	}
 }
