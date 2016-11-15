@@ -9,16 +9,15 @@ svg#graphic {
 
 #chainRing {
 		/*ANIMATION*/
-	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
+	/*animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;*/
+	animation name: ringSpin;
+	animation duration: 3s;
+	animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
 }
 		/*ANIMATION KEYFRAMES*/
 	@keyframes ringSpin {
-		20% {transform: rotate(-45deg);}
-		80% {transform: rotate(405deg);}
-		100%{transform: rotate(360deg);}
-}
-		/*WEBKIT ANIMATION KEYFRAMES*/
-	@-webkit-keyframes ringSpin {
 		20% {transform: rotate(-45deg);}
 		80% {transform: rotate(405deg);}
 		100%{transform: rotate(360deg);}
