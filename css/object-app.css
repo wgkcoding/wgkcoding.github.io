@@ -16,7 +16,7 @@ svg#graphic {
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-direction: normal; 
  		/* IE >9, Fx >15, Op >12 ANIMATION */
-	/*animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;*/
+	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
 }
 		/* Chr, Saf ANIMATION KEYFRAMES*/
 	@-webkit-keyframes ringSpin {
@@ -25,8 +25,8 @@ svg#graphic {
 		100%{-webkit-transform: rotate(360deg);}
 }
 		/* IE >9, Fx >15, Op >12 ANIMATION KEYFRAMES*/
-	/*@keyframes ringSpin {
+	@keyframes ringSpin {
 		20% {transform: rotate(-45deg);}
 		80% {transform: rotate(405deg);}
 		100%{transform: rotate(360deg);}
-}*/
+}
