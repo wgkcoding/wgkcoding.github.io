@@ -8,9 +8,9 @@ svg#graphic {
 }
 
 #chainRing {
-		/* IE >9, Fx >15, Op >12 ANIMATION*/
+		/* IE >9, Fx >15, Op >12 ANIMATION */
 	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
-		/* Chr, Saf ANIMATION*/
+		/* Chr, Saf ANIMATION */
 	-webkit-animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
 	/*animation name: ringSpin;
 	animation duration: 3s;
@@ -27,7 +27,7 @@ svg#graphic {
 
 		/* Chr, Saf ANIMATION KEYFRAMES*/
 	@-webkit-keyframes ringSpin {
-		20% {transform: rotate(-45deg);}
-		80% {transform: rotate(405deg);}
-		100%{transform: rotate(360deg);}
+		20% {-webkit-transform: rotate(-45deg);}
+		80% {-webkit-transform: rotate(405deg);}
+		100%{-webkit-transform: rotate(360deg);}
 }
