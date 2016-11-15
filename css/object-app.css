@@ -22,7 +22,7 @@ svg#graphic {
 	@-webkit-keyframes ringSpin {
 		20% {-webkit-transform: rotate(-45deg);}
 		80% {-webkit-transform: rotate(405deg);}
-		100%{-webkit-transform: rotate(360deg);}
+		100%{-webkit-transform: rotate(355deg);}
 }
 		/* IE >9, Fx >15, Op >12 ANIMATION KEYFRAMES*/
 	@keyframes ringSpin {
