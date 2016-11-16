@@ -8,23 +8,46 @@ svg#graphic {
 }
 
 #chainRing {
-		/* Chr, Saf ANIMATION */
-	/*-webkit-animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;*/
+	/* Chr, Saf ANIMATION */
 	-webkit-animation-name: ringSpin;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-direction: normal; 
- 		/* IE >9, Fx >15, Op >12 ANIMATION */
+	/*-moz-*/
+	-moz-animation-name: ringSpin;
+	-moz-animation-duration: 3s;
+	-moz-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	-moz-animation-iteration-count: 1;
+	-moz-animation-direction: normal;
+	/*-o-*/
+	-o-animation-name: ringSpin;
+	-o-animation-duration: 3s;
+	-o-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	-o-animation-iteration-count: 1;
+	-o-animation-direction: normal; 
+ 	/* IE >9, Fx >15, Op >12 ANIMATION */
 	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
 }
-		/* Chr, Saf ANIMATION KEYFRAMES*/
+	/* Chr, Saf ANIMATION KEYFRAMES */
 	@-webkit-keyframes ringSpin {
 		20% {-webkit-transform: rotate(-45deg);}
 		80% {-webkit-transform: rotate(405deg);}
 		100%{-webkit-transform: rotate(355deg);}
 }
-		/* IE >9, Fx >15, Op >12 ANIMATION KEYFRAMES*/
+	/* moz  ANIMATION KEYFRAMES */
+	@-moz-keyframes ringSpin {
+		20% {-moz-transform: rotate(-45deg);}
+		80% {-moz-transform: rotate(405deg);}
+		100%{-moz-transform: rotate(355deg);}
+}
+	/* o ANIMATION KEYFRAMES */
+	@-o-keyframes ringSpin {
+		20% {-o-transform: rotate(-45deg);}
+		80% {-o-transform: rotate(405deg);}
+		100%{-o-transform: rotate(355deg);}
+}
+	/* IE >9, Fx >15, Op >12 ANIMATION KEYFRAMES */
 	@keyframes ringSpin {
 		20% {transform: rotate(-45deg);}
 		80% {transform: rotate(405deg);}
