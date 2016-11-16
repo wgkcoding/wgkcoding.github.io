@@ -24,7 +24,7 @@
 	PORTRAIT
 	*********************************/
 
-	/*h1 {
+	h1 {
 		font-size: 1.6rem;
 	}
 	h2 {
@@ -41,7 +41,7 @@
 	}
 	header h2 {
 		padding: 8px 0 8px 0;
-	}*/
+	}
 }
 
 @media screen and (min-width: 480px) {
