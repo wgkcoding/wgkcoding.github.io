@@ -17,14 +17,16 @@
 @media screen and (max-width: 480px) {
 
 	/*********************************
-	iPHONE 1 3G AND 3Gs
+	iPHONE 2G 3G AND 3Gs
 	320 X 480 165 ppi
+	iPHONE 4 AND 4s
+	640 X 960 330 ppi
 	PORTRAIT
 	*********************************/
 
-	li.photo-list {
+	/*li.photo-list {
 		padding: 128px 5% 200px 5%;
-	}
+	}*/
 	h1 {
 		font-size: 1.6rem;
 	}
@@ -54,16 +56,17 @@
 	}
 }
 
-@media screen and (max-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (max-width: 568px) {
 	
 	/*******************************
-	iPHONE 4 AND 4s
-	640 X 960 330 ppi
 	iPHONE 5, 5s AND SE
 	640 X 1136 326 ppi
 	PORTRAIT
 	*******************************/
 
+	li.photo-list {
+		padding: 128px 5% 200px 5%;
+	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
 	}
