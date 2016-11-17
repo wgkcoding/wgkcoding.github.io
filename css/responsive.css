@@ -119,7 +119,7 @@
 	*******************************/
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (min-resolution: 1dppx) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 	/*********************************
 	7.9 INCH iPAD MINI ~162 ppi
@@ -142,7 +142,7 @@
 		padding: 13.022%;
 	}
 	li.svg-list {
-		padding: 17.448% 9.896% 0 9.896%;
+		padding: 30% 15% 15% 15%;
 	}
 	li.photo-list {
 		padding: 30.21% 6.512% 0 6.512%;
