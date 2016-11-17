@@ -61,6 +61,9 @@
 	PORTRAIT
 	*******************************/
 
+	li.photo-list {
+		padding: 128px 5% 200px 5%;
+	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
 	}
