@@ -19,10 +19,6 @@
 	/*********************************
 	iPHONE 1 3G AND 3Gs
 	320 X 480 165 ppi
-	iPHONE 4 AND 4s
-	640 X 960 330 ppi
-	iPHONE 5, 5s AND SE
-	640 X 1136 326 ppi
 	PORTRAIT
 	*********************************/
 
@@ -52,6 +48,27 @@
 	}
 	#photo03 {
 		background-image: url(../assets/jpg/320px-gallery-3.jpg);
+	}
+}
+
+@media screen and (max-width: 480px) and (min-resolution: 2dppx) {
+	
+	/*******************************
+	iPHONE 4 AND 4s
+	640 X 960 330 ppi
+	iPHONE 5, 5s AND SE
+	640 X 1136 326 ppi
+	PORTRAIT
+	*******************************/
+
+	#photo01 {
+		background-image: url(../assets/jpg/640px-gallery-1.jpg);
+	}
+	#photo02 {
+		background-image: url(../assets/jpg/640px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/640px-gallery-3.jpg);
 	}
 }
 
@@ -118,6 +135,15 @@
 	}
 	#copyright {
 		font-size: 1.2rem;
+	}
+	#photo01 {
+		background-image: url(../assets/jpg/1024px-gallery-1.jpg);
+	}
+	#photo02 {
+		background-image: url(../assets/jpg/1024px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/1024px-gallery-3.jpg);
 	}
 	nav li a h3:hover {
 		font-size: 2.2rem;
@@ -209,6 +235,15 @@
 		font-size: 3.6rem;
 		padding: 2.0000% 0;
 		color: grey;
+	}
+	#photo01 {
+		background-image: url(../assets/jpg/2048px-gallery-1.jpg);
+	}
+	#photo02 {
+		background-image: url(../assets/jpg/2048px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/2048px-gallery-3.jpg);
 	}
 }
 
