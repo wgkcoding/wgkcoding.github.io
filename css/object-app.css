@@ -39,7 +39,7 @@ svg#graphic {
 	@-moz-keyframes ringSpin {
 		20% {-moz-transform: rotate(-45deg);}
 		80% {-moz-transform: rotate(405deg);}
-		100%{-moz-transform: rotate(356deg);}
+		100%{-moz-transform: rotate(355deg);}
 }
 	/* o ANIMATION KEYFRAMES */
 	@-o-keyframes ringSpin {
