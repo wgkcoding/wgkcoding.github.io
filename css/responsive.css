@@ -193,8 +193,8 @@
 		padding: 0;
 	}
 	div.photo-frame {
-		width: 80%;
-		height: 100%;
+		width: 75%;
+		height: 480px;
 		margin: 13.672% auto;
 	}
 	img.img-responsive.photo {
