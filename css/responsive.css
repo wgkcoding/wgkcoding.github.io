@@ -163,7 +163,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 	/*********************************
 	LANDSCAPE 1024 X 768 1 DPPX
@@ -171,6 +171,9 @@
 	9.7 INCH iPAD 1 AND 2     ~132 ppi 
 	*********************************/
 
+	h1 {
+		padding: 0;
+	}
 	object {
 		padding: 4.884% 29.2982% 0 29.2982%;
 	}
@@ -189,12 +192,33 @@
 	li.photo-list {
 		padding: 0;
 	}
+	div.photo-frame {
+		width: 80%;
+		height: 100%;
+		margin: 13.672% auto;
+	}
 	img.img-responsive.photo {
 		padding: 0;
 	}
+	ul.galleryContent li  h3 {
+		display: block;
+		padding: 0 0 0 14px;
+	}
+	.navbar-fixed-bottom ul li:nth-child(2) {
+		padding: 0 80px;
+	}
 	#copyright {
-		padding: 1.954%;
+		padding: 8px 0 0 0;
 		font-size: 1.3rem;
+	}
+	#photo01 {
+		background-image: url(../assets/jpg/1024px-gallery-1.jpg);
+	}
+	#photo02 {
+		background-image: url(../assets/jpg/1024px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/1024px-gallery-3.jpg);
 	}
 } 
 
