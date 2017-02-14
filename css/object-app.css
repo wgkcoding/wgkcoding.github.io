@@ -8,24 +8,28 @@ svg#graphic {
 }
 
 #chainRing {
+	
 	/* Chr, Saf ANIMATION */
 	-webkit-animation-name: ringSpin;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-direction: normal; 
+	
 	/*-moz-*/
 	-moz-animation-name: ringSpin;
 	-moz-animation-duration: 3s;
 	-moz-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	-moz-animation-iteration-count: 1;
 	-moz-animation-direction: normal;
+	
 	/*-o-*/
 	-o-animation-name: ringSpin;
 	-o-animation-duration: 3s;
 	-o-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	-o-animation-iteration-count: 1;
 	-o-animation-direction: normal; 
+ 	
  	/* IE >9, Fx >15, Op >12 ANIMATION */
 	animation: 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s 1 normal none running ringSpin;
 }

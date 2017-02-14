@@ -59,6 +59,10 @@ button {
 	padding: 0 30px;
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
 	text-align: center;
 	color: grey;
@@ -152,19 +156,6 @@ ul.dropdown-menu>li.divider {
 	height: 36px;
 }
 
-li.photo-list {
-	height: 100vh;
-	padding: 46.25% 5% 46.878% 5%;
-}
-
-div.photo-frame {
-	width: 100%;
-	height: 100%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-origin: content-box;
-}
-
 img.img-responsive {
 	max-width: 100%;
 	margin:	 0 auto;
@@ -174,6 +165,19 @@ li.svg-list {
 	width: 100%;
 	height: 100vh;
 	padding: 30% 10% 10% 10%;
+}
+
+li.photo-list {
+	height: 100vh;
+	padding: 46.25% 5% 46.878% 5%;
+}
+
+div.photo-frame {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
 }
 
 img.img-responsive.photo {
@@ -218,14 +222,44 @@ ul.galleryContent li  h3 {
 	padding: 0;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a h3:link {
+	font-size: 1.4rem;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a h3:visited {
+	color: #alala4;
+	font-size: 1.4rem;
+}
+
 a:hover {
 	text-decoration: none;
 }
 
-nav li a h3:hover {
+a h3:hover {
+	color: #b0e0e6;
+	font-size: 1.4rem;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a h3:active {
 	color: #ff80b3;
 	font-size: 1.4rem;
 }
+
+/*nav li a h3:hover {
+	font-size: 1.4rem;
+}*/
 
 object {
 	padding: 25% 10% 20% 10%;
