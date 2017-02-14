@@ -4,8 +4,7 @@
 	NEXUS  5X 
 	********************************/
 
-	li.photo-list {
-	}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
@@ -38,7 +37,6 @@
 		padding: 8px 0 8px 0;
 	}
 	div.photo-frame {
-		/*height: 224px;*/
 		margin: auto;
 	}
 	img.img-responsive.photo {
@@ -95,21 +93,20 @@
 	h1 {
 		padding: 0;
 	}
-	object {
-		/*padding: 15% 10% 20% 10%;*/
+	li.svg-list {
+		padding: 40% 5%;
 	}
 	div.photo-frame {
 		height: 320px;
 		margin: auto;
 	}
 	li.photo-list {
-		height: 100%;
-		width: 100%;
-		padding: 40% 5%;
+		padding: 34.3788% 5%;
 		margin: auto;
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
+		background-position: -100px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/640px-gallery-2.jpg);
@@ -129,6 +126,20 @@
 	}
 	#photo03 {
 		background-image: url(../assets/jpg/1024px-gallery-3.jpg);
+	}
+}
+
+@media screen and (min-width: 412px) and (max-width: 732px) and (min-resolution: 3.5dppx) and (orientation: portrait) {
+
+	/********************************
+	NEXUS  6P
+	********************************/	
+
+	li.photo-list {
+		padding: 44.662% 4.858%;
+	}
+	#photo01 {
+		background-position: -60px;
 	}
 }
 
@@ -397,7 +408,7 @@
 		font-size: 1.8rem;
 	}
 	div #menu-icon {
-		width: 56px
+		width: 56px;
 		height: 56px;
 	}
 }
