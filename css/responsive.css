@@ -96,12 +96,12 @@
 	li.svg-list {
 		padding: 40% 5%;
 	}
-	div.photo-frame {
-		height: 320px;
-		margin: auto;
-	}
 	li.photo-list {
 		padding: 34.3788% 5%;
+		margin: auto;
+	}
+	div.photo-frame {
+		height: 320px;
 		margin: auto;
 	}
 	#photo01 {
@@ -135,10 +135,14 @@
 	NEXUS  6P
 	********************************/	
 
+	li.svg-list {
+		padding: 28.1588% 4.858% 60.196% 4.858%;
+	}
 	li.photo-list {
 		padding: 28.1588% 4.858% 60.196% 4.858%;
 	}
 	#photo01 {
+		/*center lion*/
 		background-position: -60px;
 	}
 }
