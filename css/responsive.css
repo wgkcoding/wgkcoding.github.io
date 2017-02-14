@@ -81,6 +81,16 @@
 	font-size: 1rem;
 	color: grey;
 	}
+	#photo01 {
+		background-image: url(../assets/jpg/640px-gallery-1.jpg);
+		background-position: -100px;
+	}
+	#photo02 {
+		background-image: url(../assets/jpg/640px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/640px-gallery-3.jpg);
+	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
@@ -94,7 +104,7 @@
 		padding: 0;
 	}
 	li.svg-list {
-		padding: 40% 5%;
+		padding: 23.128% 5%;
 	}
 	li.photo-list {
 		padding: 34.3788% 5%;
