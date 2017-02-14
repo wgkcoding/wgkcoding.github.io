@@ -135,6 +135,9 @@
 	NEXUS  6P
 	********************************/	
 
+	object {
+		padding: 80px 40px;
+	}
 	li.svg-list {
 		padding: 80px 4.858%;
 	}
