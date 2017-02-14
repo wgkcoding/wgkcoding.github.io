@@ -103,6 +103,9 @@
 	h1 {
 		padding: 0;
 	}
+	object {
+		padding:  10% 10% 20% 10%;
+	} 
 	li.svg-list {
 		padding: 23.128% 5%;
 	}
