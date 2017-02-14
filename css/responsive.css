@@ -157,7 +157,7 @@
 		padding: 27.344% 15.106% 15.106% 15.106%;
 	}
 	li.photo-list {
-		padding: 34.116% 6.512% 0 6.512%;
+		padding: 26.042% 2.606%;
 	}
 	.navbar-fixed-bottom ul li:nth-child(2) {
 		padding: 0 124px;
@@ -167,12 +167,14 @@
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/1024px-gallery-1.jpg);
+		background-position: -110px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/1024px-gallery-2.jpg);
 	}
 	#photo03 {
 		background-image: url(../assets/jpg/1024px-gallery-3.jpg);
+
 	}
 	a h3:link {
 		font-size: 2.2rem;
