@@ -146,6 +146,11 @@
 		/*center lion*/
 		background-position: -60px;
 	}
+	#photo02 {
+		background-image: url(../assets/jpg/1024px-gallery-2.jpg);
+	}
+	#photo03 {
+		background-image: url(../assets/jpg/1024px-gallery-3.jpg);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
@@ -183,6 +188,7 @@
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/1024px-gallery-1.jpg);
+		/*center lion*/
 		background-position: -110px;
 	}
 	#photo02 {
