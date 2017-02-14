@@ -111,12 +111,12 @@
 		margin: auto;
 	}
 	div.photo-frame {
-		height: 320px;
+		height: 50vh;
 		margin: auto;
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
-		background-position: -100px;
+		background-position: -60px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/640px-gallery-2.jpg);
