@@ -175,7 +175,7 @@ li.photo-list {
 div.photo-frame {
 	width: 100%;
 	height: 100%;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-origin: content-box;
 }
