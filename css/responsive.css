@@ -74,7 +74,6 @@
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
-		background-position: -100px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/640px-gallery-2.jpg);
@@ -110,7 +109,6 @@
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/640px-gallery-1.jpg);
-		background-position: -60px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/640px-gallery-2.jpg);
