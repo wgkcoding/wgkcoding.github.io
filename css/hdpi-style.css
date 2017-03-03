@@ -84,8 +84,6 @@
 	}
 	#photo01 {
 		background-image: url(../assets/jpg/1024px-gallery-1.jpg);
-		/*center lion*/
-		background-position: -60px;
 	}
 	#photo02 {
 		background-image: url(../assets/jpg/1024px-gallery-2.jpg);
