@@ -304,6 +304,14 @@
 	ul {
 		width: 100%;
 	}
+	ul.galleryContent {
+		display: -webkit-box;
+	}
+	ul.galleryContent li {
+		margin: 0;
+		width: 33.3333%;
+		display: block;
+	}
 	li.svg {
 		padding: 8.81% 29.643% 0 29.643%;
 	}
@@ -356,10 +364,6 @@
 	#copyright {
 		padding: 0.482%;
 		font-size: 1.8rem;
-	}
-	div #menu-icon {
-		/*width: 56px;
-		height: 56px;*/
 	}
 } 
 
