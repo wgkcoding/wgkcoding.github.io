@@ -25,6 +25,10 @@ main {
 	background-color: lightgray;
 }
 
+.dropdown-menu {
+	background-color: rgba(254, 254, 254, 0.8);
+}
+
 div.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
 	text-align: center;
 	padding: 0;
@@ -38,12 +42,16 @@ div.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6 {
 }
 
 .open>button.btn.btn-primary.dropdown-toggle {
+	width: 36px;
+	height: 36px;
 	background-color: inherit;
 	background-image: url(../assets/icons/burger-drop-up.svg);
 	background-repeat: round;
 }
 
 button.btn.btn-primary.dropdown-toggle {
+	width: 36px;
+	height: 36px;
 	background-color: inherit;
 	padding: 0;
 	background-image: url(../assets/icons/burger-drop-down.svg);
@@ -151,10 +159,6 @@ ul.dropdown-menu>li.divider {
 	padding: 3.44% 0;
 	color: grey;
 }
-#menu-icon {
-	width: 36px;
-	height: 36px;
-}
 
 img.img-responsive {
 	max-width: 100%;
@@ -243,10 +247,10 @@ a:hover {
 	text-decoration: none;
 }
 
-a h3:hover {
+/*a h3:hover {
 	color: #b0e0e6;
 	font-size: 1.4rem;
-}
+}*/
 
 a:active {
 	text-decoration: none;
@@ -256,10 +260,6 @@ a h3:active {
 	color: #ff80b3;
 	font-size: 1.4rem;
 }
-
-/*nav li a h3:hover {
-	font-size: 1.4rem;
-}*/
 
 object {
 	padding: 25% 10% 20% 10%;

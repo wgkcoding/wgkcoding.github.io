@@ -272,7 +272,10 @@
 	1680 X 1050
 	LANDSCAPE 
 	*********************************/
-
+	
+	a {
+		padding: 8px 40%;
+	}	
 	h1 {
 		font-size: 3.48rem;
 	}
@@ -281,6 +284,7 @@
 	}
 	h3 {
 		font-size: 2.56rem;
+		padding: 8px;
 	}
 	header a h1 {
 		padding: 0;
@@ -296,6 +300,9 @@
 	}
 	object {
 		padding: 12.012% 8.008% 8.008% 8.008%;
+	}
+	ul {
+		width: 100%;
 	}
 	li.svg {
 		padding: 8.81% 29.643% 0 29.643%;
@@ -326,6 +333,20 @@
 	#photo03 {
 		background-image: url(../assets/jpg/2048px-gallery-3.jpg);
 	}
+	.navbar-fixed-top li {
+		padding: 4px 44%;
+	}
+	button.btn.btn-primary.dropdown-toggle {
+		width: 56px;
+		height: 56px;
+	}
+	.open>button.btn.btn-primary.dropdown-toggle {
+		width: 56px;
+		height: 56px;
+	}
+	.dropdown-menu>li>a {
+		padding: 8px;
+	}
 	.navbar-fixed-bottom ul li:nth-child(2) {
 		padding: 0 124px;
 	}
@@ -337,8 +358,8 @@
 		font-size: 1.8rem;
 	}
 	div #menu-icon {
-		width: 56px;
-		height: 56px;
+		/*width: 56px;
+		height: 56px;*/
 	}
 } 
 
