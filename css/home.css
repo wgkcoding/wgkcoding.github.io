@@ -238,10 +238,10 @@ a:visited {
 	text-decoration: none;
 }
 
-a h3:visited {
+/*a h3:visited {
 	color: #alala4;
 	font-size: 1.4rem;
-}
+}*/
 
 a:hover {
 	text-decoration: none;
@@ -253,11 +253,11 @@ a:active {
 
 a h3:active {
 	color: #ff80b3;
-	font-size: 1.4rem;
+	/*font-size: 1.4rem;*/
 }
 
 object {
-	padding: 25% 10% 20% 10%;
+	/*padding: 25% 10% 20% 10%;*/
 	height: 100vh;
 	width:	 100%;
 }
