@@ -83,7 +83,7 @@ ul {
 }
 main {
     width: 100vw;
-    padding: 0 32%;
+    padding: 0;
 }
 .svg-name {
   display: none;
