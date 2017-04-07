@@ -184,7 +184,7 @@
     and (min-height : 768px)
     and (orientation : landscape) {
     
-    h2 {
+    h2.portfolio {
       font-size: 3rem;  
     }
     main {
