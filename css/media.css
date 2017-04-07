@@ -118,8 +118,8 @@
 
 /* iPad Pro Portrait */
     @media screen 
-        and (min-width: 1024px)
-        and (min-height : 1366px)
+        and (min-width: 1023px)
+        and (min-height : 1365px)
         and (orientation : portrait)  
         and (-webkit-min-device-pixel-ratio: 2) {
     /* TYPE RULES */
