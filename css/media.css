@@ -168,159 +168,159 @@
 }
 
 /* iPad LANDSCAPE */
-@media screen 
+    @media screen 
     and (max-width: 1024px) 
     /*and (min-height : 768px)*/
     and (orientation : landscape) {
     
     /* FONT RULES START*/
-    html {
-        /* REM ROOT */
-        font-size: 8px;
-    }
-    h2 {
-        font-size: 3rem;  
-    }
-    .glyphicon {
-        font-size: 4rem;
-    }
-    #copyright {
-        font-size: 3rem;
-    }
-    #myMenu {
-        font-size: 3rem;
-        padding: 0 2rem 1rem 0;
-    }
-    .navbar-nav>li>.dropdown-menu {
-        font-size: 3rem;
-    }
+        html {
+            /* REM ROOT */
+            font-size: 8px;
+        }
+        h2 {
+            font-size: 3rem;  
+        }
+        .glyphicon {
+            font-size: 4rem;
+        }
+        #copyright {
+            font-size: 3rem;
+        }
+        #myMenu {
+            font-size: 3rem;
+            padding: 0 2rem 1rem 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 3rem;
+        }
     /* FONT RULES END*/
     /* NAVIGATION STYLE*/
-    .navbar-nav .open .dropdown-menu {
-        background-color: rgba(124, 124, 124, 0.6);
-    }
-    .navbar-nav {
-        padding: 0 2rem 0 0;
-    }
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);
+        }
+        .navbar-nav {
+            padding: 0 2rem 0 0;
+        }
     /* MAIN RULES */
-    main {
-        padding: 0;        
-    }
-    object {
-        padding: 0 30%;
-    }
+        main {
+            padding: 0;        
+        }
+        object {
+            padding: 0 30%;
+        }
     /* GALLERY RULES */
-    .svg-list {
-        padding: 11em 17em;   
+        .svg-list {
+            padding: 10em 19em;   
+        }
+        .photo-list {
+            padding: 0;    
+        }
+        .img-responsive.photo {
+            padding: 16% 18% 10% 18%;
+        }
     }
-    .photo-list {
-        padding: 0;    
-    }
-    .img-responsive.photo {
-        padding: 13.4% 10% 10% 10%;
-    }
-}
 
 /* iPad PORTRAIT */
-@media screen 
+    @media screen 
     and (max-width: 768px) 
     and (orientation : portrait) {
     
     /* START FONT RULES */
-    html {
-        /* REM ROOT */
-        font-size: 8px;
-    }
-    .glyphicon {
-        font-size: 4rem;
-    }
-    #copyright {
-        font-size: 3rem;
-    }
-    #myMenu {
-        font-size: 3rem;
-        padding: 0 16px 8px 0;
-    }
-    .navbar-nav>li>.dropdown-menu {
-        font-size: 3rem;
-    }
+        html {
+            /* REM ROOT */
+            font-size: 8px;
+        }
+        .glyphicon {
+            font-size: 4rem;
+        }
+        #copyright {
+            font-size: 2rem;
+        }
+        #myMenu {
+            font-size: 3rem;
+            padding: 0 16px 8px 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 3rem;
+        }
     /* END FONT RULES */
     /* NAV RULES*/
-    .navbar-nav .open .dropdown-menu {
-        background-color: rgba(124, 124, 124, 0.6);    
-    }
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);    
+        }
     /* MAIN RULES */
-    main {
-        padding: 0;        
-    }
-    object {
-        padding: 0 6%;
-    }
+        main {
+            padding: 0;        
+        }
+        object {
+            padding: 0 6%;
+        }
     /* GALLERY ITEM RULES*/
-    .svg-list {
-        padding: 19rem 4rem 14rem 4rem;
+        .svg-list {
+            padding: 19rem 4rem 14rem 4rem;
+        }
+        .photo-list {
+            padding: 0;    
+        }
+        .img-responsive.photo {
+            padding: 37% 2% 37% 2%;
+        }
     }
-    .photo-list {
-        padding: 0;    
-    }
-    .img-responsive.photo {
-        padding: 37% 2% 37% 2%;
-    }
-}
 
 /* iPhone 6 plus and smaller devices */
-@media screen 
+    @media screen 
     and (max-width: 767px) {
 
     /* START FONT RULES */
-    html {
-        /* REM ROOT */
-        font-size: 8px;
-    }
-    a {
-        font-size: 3rem;
-    }
-    h2 {
-      font-size: 3rem;  
-    }
-    .glyphicon {
-        font-size: 3rem;
-    }
-    #copyright {
-        font-size: 2rem;
-    }
+        html {
+            /* REM ROOT */
+            font-size: 8px;
+        }
+        a {
+            font-size: 3rem;
+        }
+        h2 {
+          font-size: 3rem;  
+        }
+        .glyphicon {
+            font-size: 3rem;
+        }
+        #copyright {
+            font-size: 2rem;
+        }
     /* END FONT RULES */
     /* NAVIGATION RULES */
-    #myMenu {
-        padding: 0 0 8px 0;
-        margin: 0;
-    }
-    .navbar-nav .open .dropdown-menu {
-        position: absolute;
-        z-index: 1000;
-        background-color: rgba(124, 124, 124, 0.6);
-    }
-    .navbar-nav {
-        padding: 0;
-    }
-    /* MAIN RULES*/
-    main {
-        padding: 0;        
-    }
-    object {
-        padding: 0 1em;
-    }
-    /* GALLERY ITEM RULES*/
-    .svg-list {
-        padding: 50% 2rem 12rem 2rem;
-    }
-    .photo-list {
-        padding: 0;        
-    }
-    .img-responsive.svg {
-        padding: 0;
+        #myMenu {
+            padding: 0 0 8px 0;
+            margin: 0;
         }
-    .img-responsive.photo {
-        padding: 60% 0 0 0;
+        .navbar-nav .open .dropdown-menu {
+            position: absolute;
+            z-index: 1000;
+            background-color: rgba(124, 124, 124, 0.6);
+        }
+        .navbar-nav {
+            padding: 0;
+        }
+    /* MAIN RULES*/
+        main {
+            padding: 0;        
+        }
+        object {
+            padding: 0 1em;
+        }
+        /* GALLERY ITEM RULES*/
+        .svg-list {
+            padding: 50% 2rem 12rem 2rem;
+        }
+        .photo-list {
+            padding: 0;        
+        }
+        .img-responsive.svg {
+            padding: 0;
+            }
+        .img-responsive.photo {
+            padding: 60% 0 0 0;
+        }
     }
-}
