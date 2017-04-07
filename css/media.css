@@ -23,7 +23,7 @@
             font-size: 2rem;
         }
         main {
-            padding: 0 33.333%;    
+            padding: 0 32%;    
         }
         object {
             padding: 0;
@@ -31,9 +31,9 @@
         .navbar-nav .open .dropdown-menu {
             background-color: rgba(124, 124, 124, 0.6);
         }
-        /*.svg-list {
+        .svg-list {
             padding: 22em 30em 14em 30em;        
-        }*/
+        }
     }
 
 /* Desktop Landscape */
@@ -211,10 +211,10 @@
             padding: 10em 19em;   
         }
         .photo-list {
-            padding: 0;    
+            padding: 16% 16.666%;    
         }
         .img-responsive.photo {
-            padding: 16% 18% 10% 18%;
+            padding: 0;
         }
     }
 

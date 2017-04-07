@@ -97,7 +97,7 @@ object {
 }
 .photo-list {
     height: 100vh;
-    padding: 17% 28% 0 28%;
+    padding: 17% 33.333% 0 33.333%;
 }
 .photo-frame {
     background-size: cover;
