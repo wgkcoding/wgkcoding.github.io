@@ -181,10 +181,10 @@
 /* iPad LANDSCAPE */
 @media screen 
     and (max-width: 1024px) 
-    and (min-height : 768px)
+    /*and (min-height : 768px)*/
     and (orientation : landscape) {
     
-    h2.portfolio {
+    h2 {
       font-size: 3rem;  
     }
     main {
