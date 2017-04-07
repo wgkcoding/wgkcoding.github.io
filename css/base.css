@@ -41,28 +41,30 @@ p {
     font-size: 2rem;
 }
 
-/* iPad 27 */
-#myMenu {
-    padding: 0 4em 2em 0;
-}
-
 /* full width main for photos */
 #photo-main {
     padding: 0;
 }
 
-/* iPad 27 */
+#svgLink1 {
+    padding: 0;
+}
 
-ul {
-    padding-left: 0;
-    width: 100%;
+#svgLink2 {
+    padding: 0;
 }
-main {
-    width: 100vw;
-    padding: 0 32%;
+
+#svgLink3 {
+    padding: 0 0.4em;
 }
-object {
-    width: 100%;
+
+/* iPad 27 */
+#myMenu {
+    padding: 0 4em 2em 0;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #f2f2fc;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -75,13 +77,40 @@ object {
 .navbar-nav>li>a {
   padding: 0;
 }
-.svg-list {
-    height: 100vh;
-    padding: 18em 0;
+
+.nav-sign {
+        width: 20%;
+        padding: 0;
+}
+.nav-tabs {
+    display:  -webkit-box;
+}
+.nav-cams {
+    padding: 0;
+    text-align: center;
+}
+    
+/* iPad 27 */
+
+ul {
+    padding-left: 0;
+    width: 100%;
+}
+main {
+    width: 100vw;
+    padding: 0 32%;
 }
 
 .svg-name {
   display: none;
+}
+
+object {
+    width: 100%;
+}
+.svg-list {
+    height: 100vh;
+    padding: 18em 0;
 }
 
 .photo-list {
@@ -91,8 +120,4 @@ object {
 
 .photo-frame {
     background-size: cover;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #f2f2fc;
 }
