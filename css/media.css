@@ -173,15 +173,43 @@
     /*and (min-height : 768px)*/
     and (orientation : landscape) {
     
-    h2 {
-      font-size: 3rem;  
+    /* FONT RULES START*/
+    html {
+        /* REM ROOT */
+        font-size: 8px;
     }
+    h2 {
+        font-size: 3rem;  
+    }
+    .glyphicon {
+        font-size: 4rem;
+    }
+    #copyright {
+        font-size: 3rem;
+    }
+    #myMenu {
+        font-size: 3rem;
+        padding: 0 2rem 1rem 0;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    /* FONT RULES END*/
+    /* NAVIGATION STYLE*/
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    .navbar-nav {
+        padding: 0 2rem 0 0;
+    }
+    /* MAIN RULES */
     main {
         padding: 0;        
     }
     object {
         padding: 0 30%;
     }
+    /* GALLERY RULES */
     .svg-list {
         padding: 11em 17em;   
     }
@@ -191,25 +219,6 @@
     .img-responsive.photo {
         padding: 13.4% 10% 10% 10%;
     }
-    .glyphicon {
-        font-size: 3.2rem;
-    }
-    .navbar-nav {
-        padding: 0 16px 0 0;
-    }
-    .navbar-nav>li>.dropdown-menu {
-        font-size: 2.2rem;
-    }
-    #myMenu {
-        font-size: 2.4rem;
-        padding: 0 16px 8px 0;
-    }
-    #copyright {
-        font-size: 2.4rem;
-    }
-    .navbar-nav .open .dropdown-menu {
-        background-color: rgba(124, 124, 124, 0.6);
-    }
 }
 
 /* iPad PORTRAIT */
@@ -217,7 +226,9 @@
     and (max-width: 768px) 
     and (orientation : portrait) {
     
+    /* START FONT RULES */
     html {
+        /* REM ROOT */
         font-size: 8px;
     }
     .glyphicon {
@@ -233,17 +244,21 @@
     .navbar-nav>li>.dropdown-menu {
         font-size: 3rem;
     }
+    /* END FONT RULES */
+    /* NAV RULES*/
     .navbar-nav .open .dropdown-menu {
         background-color: rgba(124, 124, 124, 0.6);    
     }
+    /* MAIN RULES */
     main {
         padding: 0;        
     }
     object {
         padding: 0 6%;
     }
+    /* GALLERY ITEM RULES*/
     .svg-list {
-        padding: 25% 4rem 14rem 4rem;
+        padding: 19rem 4rem 14rem 4rem;
     }
     .photo-list {
         padding: 0;    
@@ -257,21 +272,25 @@
 @media screen 
     and (max-width: 767px) {
 
+    /* START FONT RULES */
     html {
+        /* REM ROOT */
         font-size: 8px;
     }
     a {
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
     h2 {
-      font-size: 2.4rem;  
+      font-size: 3rem;  
     }
     .glyphicon {
-        font-size: 2.4rem;
+        font-size: 3rem;
     }
     #copyright {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
+    /* END FONT RULES */
+    /* NAVIGATION RULES */
     #myMenu {
         padding: 0 0 8px 0;
         margin: 0;
@@ -284,12 +303,14 @@
     .navbar-nav {
         padding: 0;
     }
+    /* MAIN RULES*/
     main {
         padding: 0;        
     }
     object {
         padding: 0 1em;
     }
+    /* GALLERY ITEM RULES*/
     .svg-list {
         padding: 50% 2rem 12rem 2rem;
     }
@@ -298,7 +319,7 @@
     }
     .img-responsive.svg {
         padding: 0;
-    }
+        }
     .img-responsive.photo {
         padding: 60% 0 0 0;
     }
