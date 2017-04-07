@@ -1,5 +1,6 @@
 html {
-  height: 100vh;    
+  height: 100vh;
+  font-size: 16px;
 }
 
 body {
@@ -7,41 +8,50 @@ body {
     color: #cce0ff;
     background-color: #E8BF0C;
 }
-
+/* links */
+a {
+    text-align: center;
+}
+/* Google Font */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Audiowide', cursive;
 	letter-spacing: 4px;
 }
-
-a {
-    text-align: center;
-}
+/* header */
 h2 {
     color: #f2f2fc;
     /* iPad 27 */
-    font-size: 5.4rem;
+    font-size: 3.5rem;
     padding: 0.4em 0 0 0;
 }
-
+/* list items */
 h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 p {
     padding-top: 1.2rem;
 }
-/* full width main for photos */
-#photo-main {
-    padding: 0;
+
+.glyphicon {
+    font-size: 3rem;
 }
+
+#copyright {
+    font-size: 2rem;
+}
+
 /* iPad 27 */
 #myMenu {
     padding: 0 4em 2em 0;
 }
-/* iPad 27 */
-#copyright {
-        font-size: 3.2rem;
+
+/* full width main for photos */
+#photo-main {
+    padding: 0;
 }
+
+/* iPad 27 */
 
 ul {
     padding-left: 0;
@@ -64,9 +74,6 @@ object {
 } 
 .navbar-nav>li>a {
   padding: 0;
-}
-.glyphicon {
-    font-size: 5.8rem;
 }
 .svg-list {
     height: 100vh;

@@ -20,6 +20,9 @@
     and (max-height : 1080px)
     and (orientation : landscape) {
         
+    html {
+        font-size: ;
+    }
     #myMenu {
         font-size: 3.2rem;
         padding: 0 64px 24px 0;
@@ -228,11 +231,34 @@
     and (max-width: 768px) 
     and (orientation : portrait) {
     
+    html {
+        font-size: 8px;
+    }
+    /*h2 {
+        font-size: 3rem;  
+    }*/
+    .glyphicon {
+        font-size: 4rem;
+    }
     main {
         padding: 0;        
     }
     object {
         padding: 0 6%;
+    }
+    #copyright {
+        font-size: 3rem;
+    }
+    #myMenu {
+        font-size: 3rem;
+        padding: 0 16px 8px 0;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);    
     }
     .svg-list {
         padding: 25% 4rem 14rem 4rem;
@@ -242,26 +268,6 @@
     }
     .img-responsive.photo {
         padding: 37% 2% 37% 2%;
-    }
-    h2 {
-      font-size: 3rem;  
-    }
-    .glyphicon {
-        font-size: 3.2rem;
-    }
-    #myMenu {
-        font-size: 2.4rem;
-        padding: 0 16px 8px 0;
-    }
-    #copyright {
-        font-size: 2.4rem;
-    }
-    .navbar-nav>li>.dropdown-menu {
-        font-size: 2.2rem;
-    }
-    .navbar-nav .open .dropdown-menu {
-        background-color: rgba(124, 124, 124, 0.6);    
-    }
 }
 
 /* iPhone 6 plus and smaller devices */
