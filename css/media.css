@@ -1,13 +1,8 @@
 /* DESKTKOP LANDSCAPE 1600PX TO 1920PX HD TV */
-@media screen 
-    and (min-width : 1600px)
-    and (min-height : 900px)
-    and (max-width : 1920px)
-    and (max-height : 1080px)
-    and (orientation : landscape) {
+@media screen and (min-width : 1600px) and (min-height : 900px) and (max-width : 1920px) and (orientation : landscape) {
     /* TYPE RULES */
-        /* REM ROOT */        
         html {
+            /* REM ROOT */
             font-size: 16px;
         }
         .glyphicon {
@@ -37,12 +32,7 @@
     }
 
 /* Desktop Landscape */
-@media screen 
-    and (min-width : 1200px)
-    and (min-height : 720px)
-    and (max-width : 1366px)
-    and (max-height : 900px)
-    and (orientation : landscape) {
+@media screen and (min-width : 1200px) and (min-height : 720px) and (max-width : 1366px) and (max-height : 900px) and (orientation : landscape) {
     /* TYPE RULES */
         h2 {
           font-size: 3.4rem;  
@@ -73,10 +63,7 @@
     }
 
 /* iPad Pro Landscape */
-@media screen and (min-width: 1366px) 
-    and (max-height: 1024px) 
-    and (orientation : landscape) 
-    and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1366px) and (max-height: 1024px) and (orientation : landscape) {
     /* TYPE RULES */
         h2 {
             font-size: 2rem;
@@ -117,11 +104,7 @@
     }
 
 /* iPad Pro Portrait */
-@media screen 
-        and (min-width: 1023px)
-        and (min-height : 1365px)
-        and (orientation : portrait)  
-        and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1024px) and (min-height : 1366px) and (orientation : portrait) {
     /* TYPE RULES */
         h2 {
             font-size: 3rem;
@@ -162,10 +145,7 @@
 }
 
 /* iPad LANDSCAPE */
-@media screen 
-    and (max-width: 1024px) 
-    /*and (min-height : 768px)*/
-    and (orientation : landscape) {
+@media screen and (max-width: 1024px) and (orientation : landscape) {
     
     /* TYPE RULES */
         html {
@@ -211,9 +191,7 @@
     }
 
 /* iPad PORTRAIT */
-@media screen 
-    and (max-width: 768px) 
-    and (orientation : portrait) {
+@media screen and (max-width: 768px) and (orientation : portrait) {
     
     /* TYPE RULES */
         html {
