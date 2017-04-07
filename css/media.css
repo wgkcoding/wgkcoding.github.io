@@ -308,19 +308,19 @@
             padding: 0;        
         }
         object {
-            padding: 0 1em;
+            padding: 0 4em;
         }
-        /* GALLERY ITEM RULES*/
+    /* GALLERY ITEM RULES*/
         .svg-list {
-            padding: 50% 2rem 12rem 2rem;
+            padding: 19rem 7rem;
         }
         .photo-list {
             padding: 0;        
         }
         .img-responsive.svg {
             padding: 0;
-            }
+        }
         .img-responsive.photo {
-            padding: 60% 0 0 0;
+            padding: 50% 0 0 0;
         }
     }
