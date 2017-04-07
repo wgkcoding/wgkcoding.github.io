@@ -20,7 +20,7 @@
             padding: 0 4rem 1.5rem 0;
         }
         .navbar-nav>li>.dropdown-menu {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         main {
             padding: 0 32%;    
@@ -31,9 +31,9 @@
         .navbar-nav .open .dropdown-menu {
             background-color: rgba(124, 124, 124, 0.6);
         }
-        .svg-list {
+        /*.svg-list {
             padding: 22em 30em 14em 30em;        
-        }
+        }*/
     }
 
 /* Desktop Landscape */
