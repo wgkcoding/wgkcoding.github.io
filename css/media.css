@@ -1,0 +1,333 @@
+
+/*
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    .glyphicon {
+        font-size: 5.8rem;
+    }
+    .svg-list {
+        padding: 20em 12em 14em 12em;        
+    }
+}
+*/
+
+/* Desktop Landscape */
+@media screen 
+    and (min-width : 1600px)
+    and (min-height : 900px)
+    and (max-width : 1920px)
+    and (max-height : 1080px)
+    and (orientation : landscape) {
+        
+    #myMenu {
+        font-size: 3.2rem;
+        padding: 0 64px 24px 0;
+    }
+    #copyright {
+        font-size: 2rem;
+    }
+    h2 {
+      font-size: 3.4rem;  
+    }
+    main {
+        padding: 0 10%;    
+    }
+    object {
+        padding: 0;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    .glyphicon {
+        font-size: 3.8rem;
+    }
+    .svg-list {
+        padding: 12em 19em 19em 19em;        
+    }
+}
+
+/* Desktop Landscape */
+@media screen 
+    and (min-width : 1200px)
+    and (min-height : 720px)
+    and (max-width : 1366px)
+    and (max-height : 900px)
+    and (orientation : landscape) {
+    
+    #myMenu {
+        font-size: 3.2rem;
+        padding: 0 64px 24px 0;
+    }
+    #copyright {
+        font-size: 2rem;
+    }
+    h2 {
+      font-size: 3.4rem;  
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    .glyphicon {
+        font-size: 3.8rem;
+    }
+    .svg-list {
+        padding: 12em 26em;   
+    }
+    object {
+        padding: 0 30em;
+    }
+}
+
+/* iPad Pro Landscape */
+@media screen 
+    and (min-width: 1366px) 
+    and (max-height: 1024px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    
+    h2 {
+        font-size: 4.2rem;
+    }
+    main {
+        padding: 0;        
+    }
+    object {
+        padding: 0 24em;
+    }
+    .svg-list {
+        padding: 13em 17em 13em 17em;   
+    }
+    .photo-list {
+        padding: 0;    
+    }
+    .img-responsive.photo {
+        padding: 13% 10% 10% 10%;
+    }
+    .glyphicon {
+        font-size: 4.4rem;
+    }
+    .navbar-nav {
+        padding: 0 16px 0 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    #myMenu {
+        font-size: 3.2rem;
+        padding: 0 16px 16px 0;
+    }
+    #copyright {
+        font-size: 3.4rem;
+    }
+}
+
+/* iPad Pro Portrait */
+@media screen 
+    and (min-width: 1024px)
+    and (min-height : 1366px)
+    and (orientation : portrait)  
+    and (-webkit-min-device-pixel-ratio: 2) {
+    
+    h2 {
+        font-size: 4.2rem;
+    }
+    main {
+        padding: 0;        
+    }
+    object {
+        margin: 4% 0;
+        padding: 0;
+    }
+    .svg-list {
+        padding: 25% 3em 18em 3em;
+    }
+    .photo-list {
+        padding: 0;    
+    }  
+    .img-responsive.photo {
+        padding: 37% 2% 37% 2%;
+    }
+    .glyphicon {
+        font-size: 4.4rem;
+    }
+    .navbar-nav {
+        padding: 0 16px 0 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 3rem;
+    }
+    #myMenu {
+        font-size: 3.2rem;
+        padding: 0 20px 16px 0;
+    }
+    #copyright {
+        font-size: 3.4rem;
+    }
+}
+
+/* iPad LANDSCAPE */
+@media screen 
+    and (max-width: 1024px) 
+    and (min-height : 768px)
+    and (orientation : landscape) {
+    
+    h2 {
+      font-size: 3rem;  
+    }
+    main {
+        padding: 0;        
+    }
+    object {
+        padding: 0 25%;
+    }
+    .svg-list {
+        padding: 11em 17em;   
+    }
+    .photo-list {
+        padding: 0;    
+    }
+    .img-responsive.photo {
+        padding: 13.4% 10% 10% 10%;
+    }
+    .glyphicon {
+        font-size: 3.2rem;
+    }
+    .navbar-nav {
+        padding: 0 16px 0 0;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 2.2rem;
+    }
+    #myMenu {
+        font-size: 2.4rem;
+        padding: 0 16px 8px 0;
+    }
+    #copyright {
+        font-size: 2.4rem;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+}
+
+/* iPad PORTRAIT */
+@media screen 
+    and (max-width: 768px) 
+    and (orientation : portrait) {
+    
+    main {
+        padding: 0;        
+    }
+    object {
+        padding: 0;
+    }
+    .svg-list {
+        padding: 25% 4rem 14rem 4rem;
+    }
+    .photo-list {
+        padding: 0;    
+    }
+    .img-responsive.photo {
+        padding: 37% 2% 37% 2%;
+    }
+    h2 {
+      font-size: 3rem;  
+    }
+    .glyphicon {
+        font-size: 3.2rem;
+    }
+    #myMenu {
+        font-size: 2.4rem;
+        padding: 0 16px 8px 0;
+    }
+    #copyright {
+        font-size: 2.4rem;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        font-size: 2.2rem;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: rgba(124, 124, 124, 0.6);    
+    }
+}
+
+/* iPhone 6 plus and smaller devices */
+@media screen 
+    and (max-width: 767px) {
+
+    h2 {
+      font-size: 2.4rem;  
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        z-index: 1000;
+        background-color: rgba(124, 124, 124, 0.6);
+    }
+    main {
+        padding: 0;        
+    }
+    object {
+        padding: 0 1em;
+    }
+    .svg-list {
+        padding: 50% 2rem 12rem 2rem;
+    }
+    .img-responsive.svg {
+        padding: 0;
+    }
+    #svgLink1 {
+        padding: 0;
+    }
+    #svgLink2 {
+        padding: 0;
+    }
+    #svgLink3 {
+        padding: 0 0.4em;
+    }
+    .img-responsive.photo {
+        padding: 60% 0 0 0;
+    }
+    .glyphicon {
+        font-size: 2.4rem;
+    }
+    .navbar-nav {
+        padding: 0;
+    }
+    .nav-sign {
+        width: 20%;
+        padding: 0;
+    }
+    .nav-tabs {
+        display:  -webkit-box;
+    }
+    .photo-list {
+        padding: 0;        
+    }
+    .nav-cams {
+        padding: 0;
+        text-align: center;
+    }
+    #myMenu {
+        padding: 0 0 8px 0;
+        margin: 0;
+    }
+    #copyright {
+        font-size: 1.6rem;
+    }
+    a {
+        font-size: 1.4rem;
+    }
+}

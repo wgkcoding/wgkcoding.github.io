@@ -1,0 +1,91 @@
+html {
+  height: 100vh;    
+}
+
+body {
+    height: 100%;
+    color: #cce0ff;
+    background-color: #99ff99;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 4px;
+}
+
+a {
+    text-align: center;
+}
+h2 {
+    color: #f2f2fc;
+    /* iPad 27 */
+    font-size: 5.4rem;
+    padding: 0.4em 0 0 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    padding-top: 1.2rem;
+}
+/* full width main for photos */
+#photo-main {
+    padding: 0;
+}
+/* iPad 27 */
+#myMenu {
+    padding: 0 4em 2em 0;
+}
+/* iPad 27 */
+#copyright {
+        font-size: 3.2rem;
+}
+
+ul {
+    padding-left: 0;
+    width: 100%;
+}
+main {
+    width: 100vw;
+    padding: 0 32%;
+}
+object {
+    width: 100%;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    font-size: 3rem;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #7c7c7c;
+} 
+.navbar-nav>li>a {
+  padding: 0;
+}
+.glyphicon {
+    font-size: 5.8rem;
+}
+.svg-list {
+    height: 100vh;
+    padding: 18em 0;
+}
+
+.svg-name {
+  display: none;
+}
+
+.photo-list {
+    height: 100vh;
+    padding: 12% 24% 6.6% 24%;
+}
+
+.photo-frame {
+    background-size: cover;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #f2f2fc;
+}

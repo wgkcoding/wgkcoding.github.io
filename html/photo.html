@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<!--Audiowide Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>W. G. Keith | Portfolio</title>
+
+				<!--normalize v4.1.1-->
+		<link rel="stylesheet" href="../css/vendor/v4.1.1_normalize.css">
+				<!--bootstrap v3.7.7 min css-->
+		<link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+				<!--main style sheet-->
+		<link rel="stylesheet" href="../css/base.css">
+            <!--mobile media queries style sheet-->
+		<link rel="stylesheet" href="../css/media.css">
+
+	</head>
+
+	<body>
+
+		<!-- NAV TOP -->
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-*" role="navigation">
+          <div class="container-fluid">
+            <h2 class="portfolio text-center">W. G. Keith</h2>
+            <h2 class="text-center">Photos</h2>
+            <ul class="nav nav-pills navbar-nav navbar-right" id="myMenu">
+                  <li role="presentation" class="dropdown pull-right text-right">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-haspopup="true" aria-expanded="true">
+                      <li class="text-right">
+                          <a href="index.html">home</a>
+                      </li>
+                      <li class="text-right">
+                          <a href="svg.html">svg</a>
+                      </li>
+                      <li class="text-right active">
+                          <a href="photo.html">photo</a>
+                      </li>
+                      <li class="text-right">
+                          <a href="contact.html">contact</a>
+                      </li>
+                      <li class="text-right">
+                          <a href="about.html">about</a>
+                      </li>
+                    </ul>
+                  </li>
+            </ul>
+          </div>
+		</nav>
+			  
+        <!-- SVG PHOTO GALLERY -->
+        <main id="photo-main">
+            <section class="container-fluid">
+                <ul>
+                    <li id="gallery-photo01" class="photo-list">
+<!--                        <div id="photo01" class="photo-frame"></div>-->
+                        <img src="../assets/jpg/2048px-gallery-1.jpg" 
+                             class="img-responsive photo" 
+                             alt="Responsive image">
+                    </li>
+                    <li id="gallery-photo02" class="photo-list">
+                         <img src="../assets/jpg/2048px-gallery-2.jpg" 
+                             class="img-responsive photo" 
+                             alt="Responsive image">
+<!--                        <div id="photo02" class="photo-frame"></div>-->
+                    </li>
+                    <li id="gallery-photo03" class="photo-list">
+                         <img src="../assets/jpg/2048px-gallery-3.jpg" 
+                             class="img-responsive photo" 
+                             alt="Responsive image">
+<!--                        <div id="photo03" class="photo-frame"></div>-->
+                    </li>
+				</ul>
+            </section>
+        </main>
+        
+        <!-- NAV BOTTOM -->
+		<nav class="navbar navbar-default navbar-fixed-bottom navbar-toggleable-*">
+		  <div class="container-fluid">
+            <ul class="nav nav-tabs nav-cams">   
+                <li class="col-xs-4">
+                    <a href="#gallery-photo01">
+                        <span class="glyphicon glyphicon-camera"></span>
+                    </a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="#gallery-photo02">
+                        <span class="glyphicon glyphicon-camera"></span>
+                    </a>
+                </li>
+                <li class="col-xs-4">	
+                    <a href="#gallery-photo03">
+                        <span class="glyphicon glyphicon-camera"></span>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-center" id="copyright">
+              &copy; 2017 W. G. Keith
+            </p>
+          </div>
+        </nav>
+
+		<!-- SCRIPTS -->
+		<!-- JQuery first then bootstrap.js -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="../js/vendor/jquery.min.js"></script>
+	    <!-- min.js Bootstrap Javascript plugin -->
+	    <script src="../js/vendor/bootstrap.min.js"></script>
+	    <!-- app.js h3 mouseover change -->
+<!--	    <script src="js/app.js"></script>-->
+	</body>
+	
+</html>
