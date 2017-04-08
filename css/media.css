@@ -256,6 +256,9 @@
             /* REM ROOT */
             font-size: 16px;
         }
+        h2 {
+            font-size: 2rem;
+        }
         .glyphicon {
             font-size: 2rem;
         }
@@ -278,6 +281,6 @@
             padding: 0 36rem;
         }
         .svg-list {
-            padding: 15rem 36rem;        
+            padding: 10rem 30%;        
         }
 }
