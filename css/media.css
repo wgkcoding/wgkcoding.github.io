@@ -250,7 +250,7 @@
 }
 
 /* DESKTKOP LANDSCAPE 1600PX TO 1920PX HD TV */
-@media screen and (min-width : 1600px) and (min-height : 900px) and (max-width : 1920px) and (orientation : landscape) {
+@media screen and (min-width : 1367px) and (min-height : 900px) and (max-width : 1920px) and (orientation : landscape) {
     /* TYPE RULES */
         html {
             /* REM ROOT */
