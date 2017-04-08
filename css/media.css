@@ -277,10 +277,16 @@
             background-color: rgba(124, 124, 124, 0.6);
         }
     /* MEDIA LAYOUT */
+        /* MAIN SVG*/
         object {
-            padding: 8rem 19% 0 19%;
+            padding: 0 30%;
         }
+        /* SVG GALLERY LI */
         .svg-list {
-            padding: 10rem 30%;        
+            padding: 10rem 33%;        
+        }
+        /* PHOTO GALLELRY LI */
+        .photo-list {
+            padding: 0;    
         }
 }
