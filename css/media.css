@@ -1,4 +1,4 @@
-/* iPhone 6 plus and smaller devices */
+/* iPhone 6 PLUS AND SMALLER SMART PHONES */
     @media screen and (max-width: 767px) {
 
     /* TYPE RULES */
@@ -71,6 +71,7 @@
     /* STATE RULES */
         .navbar-nav .open .dropdown-menu {
             background-color: rgba(124, 124, 124, 0.6);
+        }
     /* MEDIA LAYOUT */
         object {
             padding: 0 30em;
