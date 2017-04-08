@@ -53,17 +53,17 @@
 @media screen and (min-height : 720px) and (min-width : 1200px) and (max-width : 1365px) and (max-height : 900px) and (orientation : landscape) {
     /* TYPE RULES */
         h2 {
-          font-size: 3.4rem;  
+          font-size: 2rem;  
         }
         .glyphicon {
-            font-size: 3.8rem;
+            font-size: 3rem;
         }
         #copyright {
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         #myMenu {
-            font-size: 3.2rem;
-            padding: 0 64px 24px 0;
+            font-size: 3rem;
+            padding: 0 4rem 1.5rem 0;
         }
         .navbar-nav>li>.dropdown-menu {
             font-size: 3rem;
@@ -77,7 +77,7 @@
             padding: 0 30em;
         }
         .svg-list {
-            padding: 12em 26em 12em 26em;
+            padding: 14em 30em;
         }
 }
 
