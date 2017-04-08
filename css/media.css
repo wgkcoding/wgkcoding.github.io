@@ -209,7 +209,7 @@
 }
 
 /* iPad Pro Landscape */
-@media screen and (max-width: 1366px) and (max-height: 1024px) and (orientation : landscape) {
+@media screen and (min-width: 1366px) and (min-height: 1024px) and (orientation : landscape) {
     /* TYPE RULES */
         h2 {
             font-size: 1.5rem;
