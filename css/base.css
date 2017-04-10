@@ -82,8 +82,8 @@ ul {
     width: 100%;
 }
 main {
-    width: 100vw;
-    padding: 0;
+    width: 100%;
+    padding: 6%;
 }
 .svg-name {
   display: none;
@@ -97,7 +97,7 @@ object {
 }
 .photo-list {
     height: 100vh;
-    padding: 17% 33.333% 0 33.333%;
+    /*padding: 17% 33.333% 0 33.333%;*/
 }
 .photo-frame {
     background-size: cover;

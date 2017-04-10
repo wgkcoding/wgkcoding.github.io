@@ -1,5 +1,5 @@
 /* iPhone 6 PLUS AND SMALLER SMART PHONES */
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width : 768px) {
 
     /* TYPE RULES */
         html {
@@ -12,11 +12,11 @@
         h2 {
           font-size: 3rem;  
         }
-        .glyphicon {
-            font-size: 3rem;
-        }
-        #copyright {
+        /*.glyphicon {
             font-size: 2rem;
+        }*/
+        #copyright {
+            font-size: 1.5rem;
         }
         #myMenu {
             padding: 0 0 1rem 0;
@@ -32,57 +32,112 @@
             background-color: rgba(124, 124, 124, 0.6);
         }
     /* MEDIA LAYOUT */
+        /* NAV TOP */
+        .nav>li>a {
+            padding: 0;
+        }
+        /* MAIN SVG*/
+        main {
+            padding: 0;
+        }
         object {
-            padding: 0 4em;
+            padding: 0 8%;
         }
+        /* SVG ILLUSTRATIONS GALLERY */
         .svg-list {
-            padding: 19rem 7rem;
+            padding: 48% 0 0 0;
         }
+        .img-responsive.svg {
+            padding: 0 8%;
+        }
+        /* PHOTO GALLERY */
         .photo-list {
             padding: 0;        
         }
-        .img-responsive.svg {
-            padding: 0;
-        }
         .img-responsive.photo {
-            padding: 50% 0 0 0;
+            padding: 60% 0 0 0;
+        }
+        .gallery-nav {
+            padding-top: 4px;
+        }
+}
+
+@media screen and (min-height : 768px) and (orientation : landscape) {
+    /* MEDIA LAYOUT */
+        object {
+            padding: 0 33.24%;
+        }
+        .svg-list {
+            padding: 9% 28% 0 28%;
+        }
+        /* PHOTO GALLELRY */
+        .photo-list {
+            padding: 8% 18%;    
+        }
+}
+/* MY LAPTOP HEIGHT */
+@media screen and (min-height : 900px) and (orientation : landscape) {
+    /* MEDIA LAYOUT */
+        object {
+            padding: 0 33.24%;
+        }
+        .svg-list {
+            padding: 9% 28% 0 28%;
+        }
+        .photo-list {
+            padding: 8% 20%;
+        }   
+}
+
+@media screen and (min-height : 1000px) and (orientation : landscape) {
+    /* MEDIA LAYOUT */
+        /* MAIN SVG*/
+        main {
+            padding: 6%;
+        }
+        object {
+            padding: 0 30%;
+        }
+        /* SVG GALLERY LI */
+        .svg-list {
+            padding: 8% 24%;        
+        }
+        /* PHOTO GALLELRY */
+        .photo-list {
+            padding: 8% 18%;    
         }
 }
 
 /* Desktop Landscape */
-@media screen and (min-height : 720px) and (min-width : 1200px) and (max-width : 1500px) and (max-height : 900px) and (orientation : landscape) {
+@media screen and (min-width : 1000px) and (max-width : 1500px) and (orientation : landscape) {
     /* TYPE RULES */
         h2 {
           font-size: 2rem;  
         }
         .glyphicon {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         #copyright {
             font-size: 1.5rem;
         }
         #myMenu {
-            font-size: 3rem;
+            font-size: 2rem;
             padding: 0 4rem 1.5rem 0;
         }
         .navbar-nav>li>.dropdown-menu {
-            font-size: 3rem;
+            font-size: 2rem;
         }
     /* STATE RULES */
         .navbar-nav .open .dropdown-menu {
             background-color: rgba(124, 124, 124, 0.6);
         }
-    /* MEDIA LAYOUT */
-        object {
-            padding: 0 30em;
-        }
-        .svg-list {
-            padding: 14em 30em;
+        .photo-list {
+            padding: 10% 20%;    
         }
 }
 
 /* iPad PORTRAIT */
-@media screen and (max-width : 768px) and (max-height : 1024px) and (orientation : portrait) {
+@media screen and (min-width : 768px) and (max-height : 1024px) and (orientation : portrait) {
     
     /* TYPE RULES */
         html {
@@ -250,7 +305,7 @@
 }
 
 /* DESKTKOP LANDSCAPE 1600PX TO 1920PX HD TV */
-@media screen and (min-width : 1500px) and (min-height : 900px) and (max-width : 1920px) and (orientation : landscape) {
+@media screen and (min-width : 1500px) and (max-width : 1920px) and (orientation : landscape) {
     /* TYPE RULES */
         html {
             /* REM ROOT */
@@ -275,18 +330,5 @@
     /* STATE RULES */
         .navbar-nav .open .dropdown-menu {
             background-color: rgba(124, 124, 124, 0.6);
-        }
-    /* MEDIA LAYOUT */
-        /* MAIN SVG*/
-        object {
-            padding: 0 30%;
-        }
-        /* SVG GALLERY LI */
-        .svg-list {
-            padding: 10rem 33%;        
-        }
-        /* PHOTO GALLELRY LI */
-        .photo-list {
-            padding: 0;    
         }
 }
