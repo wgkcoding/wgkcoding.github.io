@@ -52,7 +52,7 @@
 }
 
 /* iPad LANDSCAPE */
-@media screen and (min-width: 1024px) and (min-height : 768px) and (orientation : landscape) {
+@media screen and (max-width: 1024px) and (max-height : 768px) and (orientation : landscape) {
     
     /* TYPE RULES */
         html {
