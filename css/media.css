@@ -62,105 +62,82 @@
         }
 }
 
-@media screen and (min-height : 769px) and (max-width : 1000px) and (orientation : landscape) {
-    /* MEDIA LAYOUT */
-        object {
-            padding: 0 33.24%;
-        }
-        .svg-list {
-            padding: 9% 28% 0 28%;
-        }
-        /* PHOTO GALLELRY */
-        .photo-list {
-            padding: 8% 18%;    
-        }
-}
-/* MY LAPTOP HEIGHT */
-@media screen and (min-height : 900px) and (max-width : 1360px) and (orientation : landscape) {
-    /* MEDIA LAYOUT */
-        object {
-            padding: 0 33.24%;
-        }
-        .svg-list {
-            padding: 9% 28% 0 28%;
-        }
-        .photo-list {
-            padding: 8% 20%;
-        }   
-}
-
-@media screen and (min-height : 1100px) and (max-width : 1920px) and (orientation : landscape) {
-    /* MEDIA LAYOUT */
-        /* MAIN SVG*/
-        main {
-            padding: 6%;
-        }
-        object {
-            padding: 0 30%;
-        }
-        /* SVG GALLERY LI */
-        .svg-list {
-            padding: 8% 24%;        
-        }
-        /* PHOTO GALLELRY */
-        .photo-list {
-            padding: 8% 18%;    
-        }
-}
-
-/* Desktop Landscape */
-@media screen and (min-width : 1025px) and (max-width : 1360px) and (orientation : landscape) {
+@media screen and (min-width : 768px) and (min-height : 300px) and (max-width : 840px) {
     /* TYPE RULES */
         h2 {
-          font-size: 2rem;  
+            font-size: 2rem;
         }
+    /* MEDIA LAYOUT */
+        .svg-frame {
+            padding: 0 16%;
+        }
+        object {
+            padding: 10% 0;
+        }
+        .svg-list {
+            padding: 20px 0;
+        }
+        /* PHOTO GALLELRY */
+        .photo-list {
+            padding: 20% 0;    
+        }
+}
+
+@media screen and (min-width : 840px) and (min-height: 500px) and (max-width : 1240px) {
+    /* TYPE RULES */
         .glyphicon {
+            font-size: 2.5rem;
+        }
+        .navbar-nav>li>.dropdown-menu {
             font-size: 2rem;
         }
         #copyright {
             font-size: 1.5rem;
         }
-        #myMenu {
-            font-size: 2rem;
-            padding: 0 4rem 1.5rem 0;
+    /* MEDIA LAYOUT */
+        /* MAIN SVG*/
+        .svg-frame {
+            padding: 0 23%;
         }
-        .navbar-nav>li>.dropdown-menu {
-            font-size: 2rem;
+        /* SVG HOME */
+        object {
+            padding: 0;
         }
-    /* STATE RULES */
-        .navbar-nav .open .dropdown-menu {
-            background-color: rgba(124, 124, 124, 0.6);
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 20% 0;        
         }
+        /* PHOTO GALLELRY */
         .photo-list {
-            padding: 10% 20%;    
+            padding: 20% 0;    
         }
 }
 
-/* DESKTKOP LANDSCAPE 1600PX TO 1920PX HD TV */
-@media screen and (min-width : 1500px) and (max-width : 1920px) and (orientation : landscape) {
+@media screen and (min-width : 1240px) and (min-height: 700px) and (max-width : 1440px) {
     /* TYPE RULES */
-        html {
-            /* REM ROOT */
-            font-size: 16px;
-        }
-        h2 {
-            font-size: 2rem;
-        }
         .glyphicon {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
-        #copyright {
-            font-size: 2rem;
+        /* MAIN SVG */
+        .svg-frame {
+            padding: 0 22%;
         }
-        #myMenu {
-            font-size: 2rem;
-            padding: 0 4rem 1.5rem 0;
+}
+
+@media screen and (min-width : 1440px) and (min-height: 900px) and (max-width : 1680px) {
+        /* MAIN SVG */
+        .svg-frame {
+            padding: 0 26%;
         }
-        .navbar-nav>li>.dropdown-menu {
-            font-size: 2rem;
-        }
-    /* STATE RULES */
-        .navbar-nav .open .dropdown-menu {
-            background-color: rgba(124, 124, 124, 0.6);
-        }
+}
+
+@media screen and (min-width : 1680px) and (min-height: 1100px) and (max-width: 2000px) {
+        /* MAIN SVG */
+        .svg-frame {
+            padding: 0 26%;
+        }   
+}
+
+@media screen and (min-width : 1920px) and (min-height: 1000px) {
+
 }
