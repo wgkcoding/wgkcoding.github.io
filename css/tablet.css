@@ -1,7 +1,7 @@
 /* TABLET MEDIA QUERIES */
 
 /* iPad PORTRAIT */
-@media screen and (min-width : 768px) and (max-width : 768px) and (min-height : 1024px) and (orientation : portrait) {
+@media screen and (min-width : 768px) and (min-height : 1024px) and (orientation : portrait) {
     
     /* TYPE RULES */
         html {
@@ -52,7 +52,7 @@
 }
 
 /* iPad LANDSCAPE */
-@media screen and (min-width: 1024px) and (min-height : 768px) and (max-width: 1024px) and (max-height : 768px) and (orientation : landscape) {
+@media screen and (min-width: 1024px) and (min-height : 768px) and (orientation : landscape) {
     
     /* TYPE RULES */
         html {
