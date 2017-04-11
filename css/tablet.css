@@ -1,0 +1,195 @@
+/* TABLET MEDIA QUERIES */
+
+/* iPad PORTRAIT */
+@media screen and (min-width : 768px) and (min-height : 1024px) and (orientation : portrait) {
+    
+    /* TYPE RULES */
+        html {
+            /* REM ROOT */
+            font-size: 8px;
+        }
+        h2 {
+            font-size: 3rem;
+        }
+        .glyphicon {
+            font-size: 4rem;
+        }
+        #copyright {
+            font-size: 2rem;
+        }
+        #myMenu {
+            font-size: 3rem;
+            padding: 0 16px 8px 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 3rem;
+        }
+    /* STATE RULES*/
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);    
+        }
+    /* MEDIA LAYOUT */
+        /* SVG MAIN */
+        .svg-frame {
+            padding: 0;
+        }
+        /* SVG HOME */
+        object {
+            padding: 28px 0;
+        }
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 130px 0 170px;
+        }
+        /* PHOTO MAIN PORTRAIT */
+        #photo-main {
+            padding: 0;
+        }
+        /* PHOTO GALLERY */
+        .photo-list {
+            padding: 266px 0;    
+        }
+}
+
+/* iPad LANDSCAPE */
+@media screen and (min-width: 1024px) and (min-height : 768px) and (orientation : landscape) {
+    
+    /* TYPE RULES */
+        html {
+            /* REM ROOT */
+            font-size: 8px;
+        }
+        h2 {
+            font-size: 3rem;  
+        }
+        .glyphicon {
+            font-size: 4rem;
+        }
+        #copyright {
+            font-size: 3rem;
+        }
+        #myMenu {
+            font-size: 3rem;
+            padding: 0 2rem 1rem 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 3rem;
+        }
+    /* STATE RULES */
+        .navbar-nav {
+            padding: 0 2rem 0 0;
+        }
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);
+        }
+    /* MEDIA LAYOUT */
+        /* SVG MAIN */
+        .svg-frame {
+            padding: 0 232px;
+        }
+        /* SVG HOME */
+        object {
+            padding: 0;
+        }
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 102px 0 132px 0;   
+        }
+        /* PHOTO MAIN */
+        #photo-main {
+            padding: 0 104px;
+        }
+        /* PHOTO GALLERY */
+        .photo-list {
+            padding: 120px 0;    
+        }
+}
+/* iPad Pro Portrait */
+@media screen and (min-height : 1366px) and (min-width : 1024px) and (orientation : portrait) {
+    /* TYPE RULES */
+        .col-sm-6 {
+            font-size: 4rem;
+        }
+        .glyphicon {
+            font-size: 5rem;
+        }
+        #copyright {
+            font-size: 3rem;
+        }
+        #myMenu {
+            font-size: 4rem;
+            padding: 0 4rem 3rem 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 4rem;
+        }
+    /* STATE RULES */
+        .navbar-nav {
+            padding: 0 1rem 0 0;
+        }
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);
+        }
+    /* MEDIA LAYOUT */
+        
+        /* SVG MAIN */
+        .svg-frame {
+            padding: 0;
+        }
+        /* SVG HOME */
+        object {
+            padding: 52px 0;
+        }
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 180px 0;
+        }
+        /* PHOTO GALLERY */
+        .photo-list {
+            padding: 330px 0;    
+        }  
+}
+/* iPad Pro Landscape */
+@media screen and (min-height : 1024px) and (min-width : 1366px) and (orientation : landscape) {
+    /* TYPE RULES */
+        .col-sm-6 {
+            font-size: 4rem;
+        }
+        .glyphicon {
+            font-size: 5rem;
+        }
+        #copyright {
+            font-size: 3rem;
+        }
+        #myMenu {
+            font-size: 4rem;
+            padding: 0 4rem 3rem 0;
+        }
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 4rem;
+        }
+    /* STATE RULES */
+        .navbar-nav {
+            padding: 0 1rem 0 0;
+        }
+        .navbar-nav .open .dropdown-menu {
+            background-color: rgba(124, 124, 124, 0.6);
+        }
+    /* MEDIA LAYOUT */
+        /* SVG MAIN */
+        .svg-frame {
+            padding: 0 285px;
+        }
+        /* SVG HOME */
+        object {
+            padding: 0;
+        }
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 128px 0;   
+        }
+        /* PHOTO GALLERY */
+        .photo-list {
+            padding: 154px 0;    
+        }
+}

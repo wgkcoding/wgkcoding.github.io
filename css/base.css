@@ -87,6 +87,7 @@ main {
 }
 .svg-name {
   display: none;
+  font-size: 0;
 }
 object {
     width: 100%;
