@@ -125,9 +125,24 @@
 }
 
 @media screen and (min-width : 1440px) and (max-height: 1100px) and (max-width : 1680px) {
-        /* MAIN SVG */
+    /* TYPE RULES */
+        .navbar-nav>li>.dropdown-menu {
+            font-size: 2rem;
+        }
+        /* SVG MAIN */
         .svg-frame {
-            padding: 0 26%;
+            padding: 0 31%;
+        }
+        /* SVG GALLERY */
+        .svg-list {
+            padding: 24% 0;
+        }
+        #photo-main {
+            padding: 0 24%;
+        }
+        /* PHOTO GALLELRY */
+        .photo-list {
+            padding: 23% 0;    
         }
 }
 
